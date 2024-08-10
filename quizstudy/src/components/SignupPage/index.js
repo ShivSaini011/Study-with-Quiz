@@ -6,10 +6,10 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import { Link, useNavigate } from "react-router-dom";
 import LoaderHelper from "../../Utils/Loading/LoaderHelper";
 import { alertErrorMessage, alertSuccessMessage, alertWarningMessage } from "../../Utils/CustomAlertMessage";
-// import AuthService from "../../Api/Api_Services/AuthService";
-// import DefaultInput from "../../Utils/DefaultInput";
+import AuthService from "../../Api/Api_Services/AuthService";
+import DefaultInput from "../../Utils/DefaultInput";
 import { matchPassword, notEqualsZero, validPassword, validPasswordLength, validateEmail } from "../../Utils/Validation";
-// import { CountryDetails } from "../../Utils/CountryList";
+import { CountryDetails } from "../../Utils/CountryList";
 
 const SignupPage = () => {
 
@@ -145,52 +145,9 @@ const SignupPage = () => {
               <div className="poster_slider poster_slider_signup">
                 <h2 className="mb-5  ">
                   Welcome to <br />
-                  <span className="text-gradient">GapxBit</span>
+                  <span className="text-gradient">Savan's web</span>
                 </h2>
-                <Swiper className="market_slider  pb-11" spaceBetween={10} loop={true} autoplay={{
-                  delay: 2000
-                }}
-                  pagination={{
-                    dynamicBullets: true,
-                  }}
-                  modules={[Autoplay, Pagination, Navigation]}
-                  breakpoints={{
-                    320: {
-                      slidesPerView: 1,
-                      spaceBetween: 10,
-                    },
-                    640: {
-                      slidesPerView: 2,
-                      spaceBetween: 10,
-                    },
-                    768: {
-                      slidesPerView: 2,
-                      spaceBetween: 10,
-                    },
-                    1024: {
-                      slidesPerView: 2,
-                      spaceBetween: 10,
-                    },
-                  }}>
-                  <SwiperSlide>
-                    <a href="#/" className="main_poster"><img src="/images/WEBSITE LOGIN PAGE-01.jpg" alt="" /></a>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <a href="#/" className="main_poster"><img src="/images/WEBSITE LOGIN PAGE-02.jpg" alt="" /></a>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <a href="#/" className="main_poster"> <img src="/images/new_poster_2.png" alt="" /></a>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <a href="#/" className="main_poster"><img src="/images/WEBSITE LOGIN PAGE-01.jpg" alt="" /></a>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <a href="#/" className="main_poster"><img src="/images/WEBSITE LOGIN PAGE-02.jpg" alt="" /></a>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <a href="#/" className="main_poster"> <img src="/images/new_poster_2.png" alt="" /></a>
-                  </SwiperSlide>
-                </Swiper>
+
               </div>
             </div>
             <div className="col-xl-5 col-lg-12 ">
@@ -199,64 +156,11 @@ const SignupPage = () => {
                   className="signup-content signin-content"
                   onClick={(e) => { setValidations(false) }} >
                   <div className="sign-in_tab" id="qwerty">
-                    <h3 className="mb-2">Sign Up to GapxBit</h3>
-                    {/* <div className="mb-3">
-                      <ul className="nav custom-tabs my-1">
-                        <li>
-                          <a className="active" data-bs-toggle="tab" href="#login_Mobile" onClick={handleResetInput}>
-                            Mobile
-                          </a>
-                        </li>
-                        <li>
-                          <a data-bs-toggle="tab" href="#login_email" className="" onClick={handleResetInput}>
-                            Email
-                          </a>
-                        </li>
-                      </ul>
-                    </div> */}
+                    <h3 className="mb-2">Sign Up to study</h3>
                     <div className="tab-content">
                       <div className="tab-pane show  px-0 container active" id="login_Mobile">
                         <div>
                           <div className="row">
-                            {/* <div className="col-12">
-                              <div className="fleld-box">
-                                <label htmlFor="Code" className="form-label">
-                                  Phone
-                                  <span style={{ color: "red" }}>*</span>
-                                </label>
-                              </div>
-                            </div>
-                            <div className="col-12 mb-3">
-                              <div className="field-box ">
-                                <select name="countryCode" value={countryCode} onChange={(e) => setCountryCode(e.target.value)}>
-                                  <optgroup >
-                                    {CountryDetails?.map(value => {
-                                      return <option value={`${value?.phone}:${value?.label}`} key={`${value?.phone}:${value?.label}`}>
-                                        {`${value?.label}  (+${value?.phone})`}
-                                      </option>
-                                    })}
-                                  </optgroup>
-                                </select>
-                              </div>
-                            </div>
-                            <div className="col-12 mb-3">
-                              <div className="field-box field-otp-box">
-                                <input id="mobile" name="mobile" type="number" placeholder="Enter phone number"
-                                  value={mobile} onChange={(e) => setMobile(e.target.value)} onWheel={(e) => e.target.blur()} />
-                                <button type="btn" className="btn btn-sm btn-gradient" onClick={() => handleGetOtp(mobile, 'phone')}>
-                                  <span>{disableBtn ? 'Resend OTP' : 'GET OTP '} </span>
-                                </button>
-                              </div>
-                            </div> */}
-                            {/* <div className="col-md-12 mb-3">
-                              <div className="field-box">
-                                <label htmlFor="Mobbtp" className="form-label">
-                                  Phone Verification Code<span style={{ color: "red" }}>*</span>
-                                </label>
-                                <input id="Mobbtp" name="otp" type="number" placeholder="Enter phone verification code"
-                                  value={mobOtp} onChange={(e) => setMobOtp(e.target.value)} onWheel={(e) => e.target.blur()} />
-                              </div>
-                            </div> */}
 
                             <div className="col-md-12 mb-3">
                               <div className="field-box">
