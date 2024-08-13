@@ -1,0 +1,46 @@
+/* index.css */
+
+/* Reset some default browser styles */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Basic styling for body */
+  body {
+    background-color: #7e86e3;
+    color: #333;
+  }
+  
+  /* Basic styling for buttons */
+  button {
+    padding: 10px 20px;
+    background-color: #88ff88;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Basic styling for links */
+  a {
+    text-decoration: none;
+    color: #fcde33;
+  }
+  
+  /* Styling for the navbar */
+  .navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  /* Styling for dropdowns */
+  .dropdown {
+    /* background-color: #007bff; */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
