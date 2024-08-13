@@ -101,7 +101,7 @@ body, html {
     text-align: center;
     margin: 20px 0;
     font-size: 14px;
-    color: #666;
+    /* color: #666; */
 }
 
 form {
