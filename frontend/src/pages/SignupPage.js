@@ -20,7 +20,7 @@ const SignupPage = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://study-with-quiz.onrender.com/api/auth/signup', { // Replace with your backend URL
+      const response = await fetch('http://localhost:5000/api/auth/signup', { // Replace with your backend URL
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
