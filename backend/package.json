@@ -4,7 +4,9 @@
     "description": "Backend for study and quiz website",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+        "start:backend": "npm run start",
+        "start:frontend": "npm start --prefix ../frontend"
     },
     "dependencies": {
         "bcrypt": "^5.1.1",
@@ -15,5 +17,8 @@
         "jsonwebtoken": "^9.0.0",
         "mongoose": "^8.5.2",
         "study-quiz-backend": "file:"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
     }
 }

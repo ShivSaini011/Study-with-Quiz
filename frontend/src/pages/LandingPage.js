@@ -50,7 +50,7 @@ const LandingPage = () => {
                   </div>
                   <div class="header_background-image-wrapper">
                     <img
-                      src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf09b_orange-red-gradient-background.png"
+                      src="/images/png2.png"
                       loading="lazy"
                       alt=""
                       class="header_background-image"
