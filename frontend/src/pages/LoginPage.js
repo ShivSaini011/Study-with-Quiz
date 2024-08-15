@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import './loginpage.css';
+import toast from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
+  const navigate = useNavigate();
   const handleLogin = async (e) => {
     e.preventDefault();
 
@@ -20,13 +23,16 @@ const LoginPage = () => {
 
       if (response.ok) {
         const data = await response.json();
-        console.log('Login successful', data);
+        // console.log('Login successful', data);
+        // toast.success('Login successful');
 
         // Handle successful login
 
         // Save token to localStorage or redirect user to another page
         localStorage.setItem('token', data.token);
-        window.location.href = '/profile'; // Redirect to the dashboard or another page
+        navigate('/');
+        // window.location.href = '/'; // Redirect to the dashboard or another page
+        toast.success('Login successful');
       } else {
         const errorData = await response.json();
         setError(errorData.message || 'Login failed');
