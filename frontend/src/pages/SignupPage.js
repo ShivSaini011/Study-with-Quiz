@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './signuppage.css';
+import { useNavigation } from 'react-router-dom';
 
 const SignupPage = () => {
+  const navigate = useNavigation();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [firstName, setFirstName] = useState('');
@@ -34,7 +36,8 @@ const SignupPage = () => {
         localStorage.setItem('token', data.token);
 
         // Handle successful signup
-        window.location.href = '/profile'; // Redirect to login page after successful signup
+        // window.location.href = '/profile'; // Redirect to login page after successful signup
+        navigate("/pofile")
       } else {
         const errorData = await response.json();
         setError(errorData.message || 'Signup failed');
