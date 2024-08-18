@@ -84,7 +84,7 @@ const Navbar  = () => {
 
 <div
         data-animation="default"
-        class="navbar_fixed w-nav"
+        className="navbar_fixed w-nav"
         data-easing2="ease"
         fs-scrolldisable-element="smart-nav"
         data-easing="ease"
@@ -93,20 +93,20 @@ const Navbar  = () => {
         role="banner"
         data-duration="0"
       >
-        <div class="navbar_component">
-          <div class="navbar_container">
+        <div className="navbar_component">
+          <div className="navbar_container">
             <a
               href="/"
               aria-current="page"
-              class="navbar_logo-link w-nav-brand w--current"
+              className="navbar_logo-link w-nav-brand w--current"
               aria-label="home"
               ><img
                 src="/"
                 loading="lazy"
                 alt="Codewars by Andela"
-                class="navbar_logo"
+                className="navbar_logo"
             /></a>
-            <nav role="navigation" class="navbar_menu w-nav-menu">
+            <nav role="navigation" className="navbar_menu w-nav-menu">
             <div className="navbar_menu-links">
                 <div><a
                   href="/study"
@@ -162,25 +162,25 @@ const Navbar  = () => {
             )}
             </nav>
             <div
-              class="navbar_menu-button w-nav-button"
+              className="navbar_menu-button w-nav-button"
               aria-label="menu"
               role="button"
-              tabindex="0"
+              tabIndex="0"
               aria-controls="w-nav-overlay-0"
               aria-haspopup="menu"
               aria-expanded="false"
             >
-              <div class="menu-icon1">
-                <div class="menu-icon1_line-top"></div>
-                <div class="menu-icon1_line-middle">
-                  <div class="menu-icon_line-middle-inner"></div>
+              <div className="menu-icon1">
+                <div className="menu-icon1_line-top"></div>
+                <div className="menu-icon1_line-middle">
+                  <div className="menu-icon_line-middle-inner"></div>
                 </div>
-                <div class="menu-icon1_line-bottom"></div>
+                <div className="menu-icon1_line-bottom"></div>
               </div>
             </div>
           </div>
         </div>
-        <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
+        <div className="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
       </div>
 
 
@@ -269,7 +269,7 @@ const Navbar  = () => {
               // style={"-webkit-user-select: text"}
               aria-label="menu"
               role="button"
-              tabindex="0"
+              tabIndex="0"
               aria-controls="w-nav-overlay-1"
               aria-haspopup="menu"
               aria-expanded="false"

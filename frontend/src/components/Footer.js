@@ -5,23 +5,23 @@ const Footer = () => {
   return (
     <footer>
       {/* <p>&copy; 2024 Study & Quiz Platform. All rights reserved.</p> */}
-      <div class="footer_component">
-        <div class="page-padding">
-          <div class="container-large">
-            <div class="padding-section-medium">
-              <div class="w-layout-grid footer_top-wrapper">
+      <div className="footer_component">
+        <div className="page-padding">
+          <div className="container-large">
+            <div className="padding-section-medium">
+              <div className="w-layout-grid footer_top-wrapper">
                 <div
                   id="w-node-_06aa6093-d976-8a97-0662-4b3759dde9ab-88ee223f"
-                  class="footer_top-left"
+                  className="footer_top-left"
                 >
                   <div
                     id="w-node-_25147e8b-33f3-774e-749b-303c8d5acaa4-88ee223f"
-                    class="footer_logo-and-tagline"
+                    className="footer_logo-and-tagline"
                   >
                     <a
                       href="https://www.codewars.com/#"
                       id="w-node-a82fa6cb-b3a8-77d7-a5db-9cb788ee2245-88ee223f"
-                      class="footer_logo-link w-nav-brand"
+                      className="footer_logo-link w-nav-brand"
                       ><img
                         src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf067_codewars-logomark.svg"
                         loading="lazy"
@@ -29,26 +29,26 @@ const Footer = () => {
                         height="Auto"
                         alt=""
                     /></a>
-                    <p class="text-style-mono text-size-small">
+                    <p className="text-style-mono text-size-small">
                       Achieve mastery<br />through challenge.
                     </p>
                   </div>
-                  <div class="footer_languages">
-                    <p class="text-size-small text-weight-medium">
+                  <div className="footer_languages">
+                    <p className="text-size-small text-weight-medium">
                       Top languages
                     </p>
-                    <div class="w-dyn-list">
+                    <div className="w-dyn-list">
                       <div
                         role="list"
-                        class="footer_languages-list w-dyn-items"
+                        className="footer_languages-list w-dyn-items"
                       >
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="/"
                               target="_blank"
                               >C</a
@@ -57,11 +57,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/csharp"
                               target="_blank"
                               >C#</a
@@ -70,11 +70,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/cpp"
                               target="_blank"
                               >C++</a
@@ -83,11 +83,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/dart"
                               target="_blank"
                               >Dart</a
@@ -96,11 +96,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/go"
                               target="_blank"
                               >Go</a
@@ -109,11 +109,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/haskell"
                               target="_blank"
                               >Haskell</a
@@ -122,11 +122,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/java"
                               target="_blank"
                               >Java</a
@@ -135,11 +135,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/javascript"
                               target="_blank"
                               >JavaScript</a
@@ -148,11 +148,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/kotlin"
                               target="_blank"
                               >Kotlin</a
@@ -161,11 +161,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/lua"
                               target="_blank"
                               >Lua</a
@@ -174,11 +174,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/php"
                               target="_blank"
                               >PHP</a
@@ -187,11 +187,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/python"
                               target="_blank"
                               >Python</a
@@ -200,11 +200,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/r"
                               target="_blank"
                               >R</a
@@ -213,11 +213,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/ruby"
                               target="_blank"
                               >Ruby</a
@@ -226,11 +226,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/rust"
                               target="_blank"
                               >Rust</a
@@ -239,11 +239,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/sql"
                               target="_blank"
                               >SQL</a
@@ -252,11 +252,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/scala"
                               target="_blank"
                               >Scala</a
@@ -265,11 +265,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/solidity"
                               target="_blank"
                               >Solidity</a
@@ -278,11 +278,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/swift"
                               target="_blank"
                               >Swift</a
@@ -291,11 +291,11 @@ const Footer = () => {
                         </div>
                         <div
                           role="listitem"
-                          class="footer_languages-collection-item w-dyn-item"
+                          className="footer_languages-collection-item w-dyn-item"
                         >
-                          <div class="w-embed">
+                          <div className="w-embed">
                             <a
-                              class="footer_languages-pill"
+                              className="footer_languages-pill"
                               href="https://www.codewars.com/kata/typescript"
                               target="_blank"
                               >TypeScript</a
@@ -306,66 +306,66 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-                <div class="footer_link-list">
-                  <div class="heading-style-h6">dojo</div>
+                <div className="footer_link-list">
+                  <div className="heading-style-h6">dojo</div>
                   <a
                     href="https://www.codewars.com/kata"
                     target="_blank"
-                    class="footer_link"
+                    className="footer_link"
                     >Kata Library</a
                   ><a
                     href="https://www.codewars.com/users/leaderboard"
                     target="_blank"
-                    class="footer_link"
+                    className="footer_link"
                     >Leaderboard</a
                   ><a
                     href="https://docs.codewars.com/"
                     target="_blank"
-                    class="footer_link"
+                    className="footer_link"
                     >Docs</a
                   >
                 </div>
-                <div class="footer_link-list">
-                  <div class="heading-style-h6">developers</div>
-                  <a href="https://www.codewars.com/blog" class="footer_link"
+                <div className="footer_link-list">
+                  <div className="heading-style-h6">developers</div>
+                  <a href="https://www.codewars.com/blog" className="footer_link"
                     >Blog</a
                   ><a
                     href="https://www.codewars.com/partner-schools"
-                    class="footer_link"
+                    className="footer_link"
                     >Partner Schools</a
                   ><a
                     href="https://www.codewars.com/#"
-                    class="footer_link-new hide w-inline-block"
+                    className="footer_link-new hide w-inline-block"
                     ><p>Missions</p>
-                    <p class="pill">Preview</p></a
+                    <p className="pill">Preview</p></a
                   >
                 </div>
-                <div class="footer_link-list">
-                  <div class="heading-style-h6">educators</div>
+                <div className="footer_link-list">
+                  <div className="heading-style-h6">educators</div>
                   <a
                     href="https://www.codewars.com/partnerships"
-                    class="footer_link"
+                    className="footer_link"
                     >Educator Partnerships</a
                   >
                 </div>
-                <div class="footer_link-list">
-                  <div class="heading-style-h6">companies</div>
+                <div className="footer_link-list">
+                  <div className="heading-style-h6">companies</div>
                   <a
                     href="https://www.qualified.io/?utm_source=codewars&amp;utm_campaign=companies-header"
                     target="_blank"
-                    class="footer_link"
+                    className="footer_link"
                     >Skill Assessments</a
                   >
                 </div>
               </div>
             </div>
-            <div class="line-divider"></div>
-            <div class="padding-section-small">
-              <div class="footer_bottom-wrapper">
-                <div class="w-layout-grid footer_legal-list">
+            <div className="line-divider"></div>
+            <div className="padding-section-small">
+              <div className="footer_bottom-wrapper">
+                <div className="w-layout-grid footer_legal-list">
                   <div
                     id="w-node-a82fa6cb-b3a8-77d7-a5db-9cb788ee2267-88ee223f"
-                    class="footer_credit-text"
+                    className="footer_credit-text"
                   >
                     © 2024
                     <a
@@ -376,42 +376,42 @@ const Footer = () => {
                   </div>
                   <div
                     id="w-node-a82fa6cb-b3a8-77d7-a5db-9cb788ee2269-88ee223f"
-                    class="footer_credit-text"
+                    className="footer_credit-text"
                   >
                     Built on
                     <a
                       href="https://www.qualified.io/?utm_source=codewars&amp;utm_campaign=footerp"
                       target="_blank"
-                      class="footer_legal-link"
+                      className="footer_legal-link"
                       >Qualified.io</a
                     >
                   </div>
                   <a
                     href="https://dev.codewars.com/"
                     target="_blank"
-                    class="footer_legal-link"
+                    className="footer_legal-link"
                     >API</a
                   ><a
                     href="https://www.codewars.com/about/privacy"
-                    class="footer_legal-link"
+                    className="footer_legal-link"
                     >Privacy Policy</a
                   ><a
                     href="https://www.codewars.com/about/terms-of-service"
-                    class="footer_legal-link"
+                    className="footer_legal-link"
                     >Terms of Service</a
                   ><a
                     href="https://www.codewars.com/about"
                     target="_blank"
-                    class="footer_legal-link"
+                    className="footer_legal-link"
                     >About</a
                   >
                 </div>
-                <div class="w-layout-grid footer_social-list">
+                <div className="w-layout-grid footer_social-list">
                   <a
                     href="https://twitter.com/codewars"
                     target="_blank"
-                    class="footer_social-link w-inline-block"
-                    ><div class="social-icon w-embed">
+                    className="footer_social-link w-inline-block"
+                    ><div className="social-icon w-embed">
                       <svg
                         width="24"
                         height="24"
@@ -427,8 +427,8 @@ const Footer = () => {
                   ><a
                     href="https://www.linkedin.com/company/codewars/"
                     target="_blank"
-                    class="footer_social-link w-inline-block"
-                    ><div class="social-icon w-embed">
+                    className="footer_social-link w-inline-block"
+                    ><div className="social-icon w-embed">
                       <svg
                         height="24"
                         width="24"
@@ -449,8 +449,8 @@ const Footer = () => {
                   ><a
                     href="https://github.com/codewars"
                     target="_blank"
-                    class="footer_social-link w-inline-block"
-                    ><div class="social-icon w-embed">
+                    className="footer_social-link w-inline-block"
+                    ><div className="social-icon w-embed">
                       <svg
                         width="24"
                         height="24"
@@ -458,7 +458,7 @@ const Footer = () => {
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
-                        <g clip-path="url(#clip0_236_3359)">
+                        <g clipPath="url(#clip0_236_3359)">
                           <path
                             d="M12 0.296875C5.37 0.296875 0 5.66988 0 12.2969C0 17.5999 3.438 22.0969 8.205 23.6819C8.805 23.7949 9.025 23.4239 9.025 23.1049C9.025 22.8199 9.015 22.0649 9.01 21.0649C5.672 21.7889 4.968 19.4549 4.968 19.4549C4.422 18.0699 3.633 17.6999 3.633 17.6999C2.546 16.9559 3.717 16.9709 3.717 16.9709C4.922 17.0549 5.555 18.2069 5.555 18.2069C6.625 20.0419 8.364 19.5119 9.05 19.2049C9.158 18.4289 9.467 17.8999 9.81 17.5999C7.145 17.2999 4.344 16.2679 4.344 11.6699C4.344 10.3599 4.809 9.28988 5.579 8.44988C5.444 8.14688 5.039 6.92688 5.684 5.27388C5.684 5.27388 6.689 4.95188 8.984 6.50388C9.944 6.23688 10.964 6.10488 11.984 6.09888C13.004 6.10488 14.024 6.23688 14.984 6.50388C17.264 4.95188 18.269 5.27388 18.269 5.27388C18.914 6.92688 18.509 8.14688 18.389 8.44988C19.154 9.28988 19.619 10.3599 19.619 11.6699C19.619 16.2799 16.814 17.2949 14.144 17.5899C14.564 17.9499 14.954 18.6859 14.954 19.8099C14.954 21.4159 14.939 22.7059 14.939 23.0959C14.939 23.4109 15.149 23.7859 15.764 23.6659C20.565 22.0919 24 17.5919 24 12.2969C24 5.66988 18.627 0.296875 12 0.296875Z"
                             fill="currentcolor"
@@ -468,8 +468,8 @@ const Footer = () => {
                   ><a
                     href="https://discord.gg/mSwJWRvkHA"
                     target="_blank"
-                    class="footer_social-link w-inline-block"
-                    ><div class="social-icon w-embed">
+                    className="footer_social-link w-inline-block"
+                    ><div className="social-icon w-embed">
                       <svg
                         width="24"
                         height="24"

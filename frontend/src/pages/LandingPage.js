@@ -5,27 +5,27 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
       <section>
-        <main class="main-wrapper">
-          <header class="section_header position-relative">
-            <div class="header_viewport-80">
-              <div class="padding-global">
-                <div class="container-medium">
-                  <div class="padding-section-medium">
-                    <div class="text-align-center">
-                      <h1 class="text-color-white">
-                        <span class="text-color-hero-gradient">
+        <main className="main-wrapper">
+          <header className="section_header position-relative">
+            <div className="header_viewport-80">
+              <div className="padding-global">
+                <div className="container-medium">
+                  <div className="padding-section-medium">
+                    <div className="text-align-center">
+                      <h1 className="text-color-white">
+                        <span className="text-color-hero-gradient">
                           Achieve mastery
                         </span>
                         <br />
                         through challenge
                       </h1>
-                      <div class="spacing-block padding-small-plus"></div>
-                      <p class="text-size-large">
+                      <div className="spacing-block padding-small-plus"></div>
+                      <p className="text-size-large">
                         Improve your development skills by training with your
                         peers on code kata that continuously challenge and push
                         your coding practice.
                       </p>
-                      <div class="spacing-block padding-medium"></div>
+                      <div className="spacing-block padding-medium"></div>
                       <div className="header-content">
                         <div className="search-bar">
                           <input
@@ -38,48 +38,48 @@ const LandingPage = () => {
                         </div>
                         <a href="/">Not Sure Where To Begin?</a>
                       </div>
-                      <div class="button-group is-center">
+                      <div className="button-group is-center">
                         <a
                           href="/signup"
-                          class="button is-large w-button"
+                          className="button is-large w-button"
                         >
                           Get Started
                         </a>
                       </div>
                     </div>
                   </div>
-                  <div class="header_background-image-wrapper">
+                  <div className="header_background-image-wrapper">
                     <img
                       src="/images/png2.png"
                       loading="lazy"
                       alt=""
-                      class="header_background-image"
+                      className="header_background-image"
                     />
-                    <div class="header_floating-langs-grid">
+                    <div className="header_floating-langs-grid">
                       <div
                         id="w-node-_14e52e11-43e0-3210-1bc7-d3cf2ef95503-612cf017"
-                        class="header_floating-langs-item-z is-depth-minus-2"
+                        className="header_floating-langs-item-z is-depth-minus-2"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-outline"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-outline"></div>
                       </div>
                       <div
                         id="w-node-_17e64582-7d69-b248-8d0f-53d0682e6e94-612cf017"
-                        class="header_floating-langs-item-z is-depth-minus-2"
+                        className="header_floating-langs-item-z is-depth-minus-2"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-bright"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-bright"></div>
                       </div>
                       <div
                         id="w-node-_5f6e5bd7-284f-f405-af30-bcf3832825d4-612cf017"
-                        class="header_floating-langs-item-z is-depth-plus-1"
+                        className="header_floating-langs-item-z is-depth-plus-1"
                       >
-                        <div class="header_floating-langs-item-x-y">
-                          <div class="header_floating-langs-icon w-embed">
+                        <div className="header_floating-langs-item-x-y">
+                          <div className="header_floating-langs-icon w-embed">
                             <svg
                               viewBox="0 0 24 24"
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
                             >
-                              <g clip-path="url(#clip0_23_1357)">
+                              <g clipPath="url(#clip0_23_1357)">
                                 <path
                                   d="M0 0V24H24V0H0ZM13.0607 18.7179C13.0607 21.0536 11.6893 22.1196 9.69107 22.1196C7.88571 22.1196 6.84107 21.1875 6.30536 20.0571L8.14286 18.9482C8.49643 19.575 8.81786 20.1054 9.59464 20.1054C10.3339 20.1054 10.8054 19.8161 10.8054 18.6857V11.0196H13.0607V18.7179ZM18.3964 22.1196C16.3018 22.1196 14.9464 21.1232 14.2875 19.8161L16.125 18.7554C16.6071 19.5429 17.2393 20.1268 18.3482 20.1268C19.2804 20.1268 19.8804 19.6607 19.8804 19.0125C19.8804 18.2411 19.2696 17.9679 18.2357 17.5125L17.6732 17.2714C16.0446 16.5804 14.9679 15.7071 14.9679 13.8696C14.9679 12.1768 16.2589 10.8911 18.2679 10.8911C19.7036 10.8911 20.7321 11.3893 21.4714 12.6964L19.7143 13.8214C19.3286 13.1304 18.9107 12.8571 18.2625 12.8571C17.6036 12.8571 17.1857 13.275 17.1857 13.8214C17.1857 14.4964 17.6036 14.7696 18.5732 15.1929L19.1357 15.4339C21.0536 16.2536 22.1304 17.0946 22.1304 18.9804C22.1304 21.0054 20.5339 22.1196 18.3964 22.1196Z"
                                   fill="currentcolor"
@@ -91,16 +91,16 @@ const LandingPage = () => {
                       </div>
                       <div
                         id="w-node-_39ecaeba-6f6d-99bc-cfdf-37f1c58b4fb7-612cf017"
-                        class="header_floating-langs-item-z"
+                        className="header_floating-langs-item-z"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-dull"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-dull"></div>
                       </div>
                       <div
                         id="w-node-_643b8cde-a3a8-acb2-791b-1686966ea547-612cf017"
-                        class="header_floating-langs-item-z is-depth-minus-1"
+                        className="header_floating-langs-item-z is-depth-minus-1"
                       >
-                        <div class="header_floating-langs-item-x-y">
-                          <div class="header_floating-langs-icon w-embed">
+                        <div className="header_floating-langs-item-x-y">
+                          <div className="header_floating-langs-icon w-embed">
                             <svg viewBox="0 0 128 128">
                               <path
                                 fill="currentcolor"
@@ -112,10 +112,10 @@ const LandingPage = () => {
                       </div>
                       <div
                         id="w-node-f0615924-d1eb-c90c-241f-0f8224bb2502-612cf017"
-                        class="header_floating-langs-item-z"
+                        className="header_floating-langs-item-z"
                       >
-                        <div class="header_floating-langs-item-x-y">
-                          <div class="header_floating-langs-icon w-embed">
+                        <div className="header_floating-langs-item-x-y">
+                          <div className="header_floating-langs-icon w-embed">
                             <svg viewBox="0 0 128 128">
                               <path
                                 d="M117.5 33.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.3.9 3.4l-.2.1c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c.1-.8 0-1.7-.4-2.6zm-53.5 70c-21.8 0-39.5-17.7-39.5-39.5S42.2 24.5 64 24.5c14.7 0 27.5 8.1 34.3 20l-13 7.5C81.1 44.5 73.1 39.5 64 39.5c-13.5 0-24.5 11-24.5 24.5s11 24.5 24.5 24.5c9.1 0 17.1-5 21.3-12.4l12.9 7.6c-6.8 11.8-19.6 19.8-34.2 19.8zM115 62h-3.2l-.9 4h4.1v5h-5l-1.2 6h-4.9l1.2-6h-3.8l-1.2 6h-4.8l1.2-6H94v-5h3.5l.9-4H94v-5h5.3l1.2-6h4.9l-1.2 6h3.8l1.2-6h4.8l-1.2 6h2.2v5zm-12.7 4h3.8l.9-4h-3.8z"
@@ -127,16 +127,16 @@ const LandingPage = () => {
                       </div>
                       <div
                         id="w-node-dbc4353f-77da-722c-6cab-d4c70ccf7a2d-612cf017"
-                        class="header_floating-langs-item-z is-depth-minus-2"
+                        className="header_floating-langs-item-z is-depth-minus-2"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-dull"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-dull"></div>
                       </div>
                       <div
                         id="w-node-_5123c58c-5be1-cd39-8122-7372ca6a4920-612cf017"
-                        class="header_floating-langs-item-z is-depth-minus-2"
+                        className="header_floating-langs-item-z is-depth-minus-2"
                       >
-                        <div class="header_floating-langs-item-x-y">
-                          <div class="header_floating-langs-icon w-embed">
+                        <div className="header_floating-langs-item-x-y">
+                          <div className="header_floating-langs-icon w-embed">
                             <svg viewBox="0 0 128 128">
                               <path
                                 d="M125.54 26.23a28.78 28.78 0 00-2.65-7.58 28.84 28.84 0 00-4.76-6.32 23.42 23.42 0 00-6.62-4.55 27.27 27.27 0 00-7.68-2.53c-2.65-.51-5.56-.51-8.21-.76H30.25a45.46 45.46 0 00-6.09.51 21.81 21.81 0 00-5.82 1.52c-.53.25-1.32.51-1.85.76a33.82 33.82 0 00-5 3.28c-.53.51-1.06.76-1.59 1.26a22.41 22.41 0 00-4.76 6.32 23.61 23.61 0 00-2.65 7.58 78.47 78.47 0 00-.79 7.83v60.39a39.32 39.32 0 00.79 7.83 28.78 28.78 0 002.65 7.58 28.84 28.84 0 004.76 6.32 23.42 23.42 0 006.62 4.55 27.27 27.27 0 007.68 2.53c2.65.51 5.56.51 8.21.76h63.22a45.08 45.08 0 008.21-.76 27.27 27.27 0 007.68-2.53 30.13 30.13 0 006.62-4.55 22.41 22.41 0 004.76-6.32 23.61 23.61 0 002.65-7.58 78.47 78.47 0 00.79-7.83V34.06a39.32 39.32 0 00-.8-7.83zm-18.79 75.54C101 91 90.37 94.33 85 96.5c-11.11 6.13-26.38 6.76-41.75.47A64.53 64.53 0 0113.84 73a50 50 0 0010.85 6.32c15.87 7.1 31.73 6.61 42.9 0-15.9-11.66-29.4-26.82-39.46-39.2a43.47 43.47 0 01-5.29-6.82c12.16 10.61 31.5 24 38.38 27.79a271.77 271.77 0 01-27-32.34 266.8 266.8 0 0044.47 34.87c.71.38 1.26.7 1.7 1a32.71 32.71 0 001.21-3.51c3.71-12.89-.53-27.54-9.79-39.67C93.25 33.81 106 57.05 100.66 76.51c-.14.53-.29 1-.45 1.55l.19.22c10.6 12.63 7.67 26.02 6.35 23.49z"
@@ -148,16 +148,16 @@ const LandingPage = () => {
                       </div>
                       <div
                         id="w-node-_6c9a1a23-9933-4ad4-c3f8-58320d525258-612cf017"
-                        class="header_floating-langs-item-z"
+                        className="header_floating-langs-item-z"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-dull"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-dull"></div>
                       </div>
                       <div
                         id="w-node-_73dbb1ad-85da-45ba-eb23-f9408cc7bf0c-612cf017"
-                        class="header_floating-langs-item-z is-depth-minus-1 is-faded-mobile"
+                        className="header_floating-langs-item-z is-depth-minus-1 is-faded-mobile"
                       >
-                        <div class="header_floating-langs-item-x-y">
-                          <div class="header_floating-langs-icon w-embed">
+                        <div className="header_floating-langs-item-x-y">
+                          <div className="header_floating-langs-icon w-embed">
                             <svg
                               viewBox="0 0 24 24"
                               fill="none"
@@ -179,13 +179,13 @@ const LandingPage = () => {
                       </div>
                       <div
                         id="w-node-_64042d80-7c6e-0c4b-e6ae-83c5fd73cbaf-612cf017"
-                        class="header_floating-langs-item-z is-depth-plus-1"
+                        className="header_floating-langs-item-z is-depth-plus-1"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-dull"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-dull"></div>
                       </div>
-                      <div class="header_floating-langs-item-z is-depth-plus-2 is-faded-mobile">
-                        <div class="header_floating-langs-item-x-y">
-                          <div class="header_floating-langs-icon w-embed">
+                      <div className="header_floating-langs-item-z is-depth-plus-2 is-faded-mobile">
+                        <div className="header_floating-langs-item-x-y">
+                          <div className="header_floating-langs-icon w-embed">
                             <svg viewBox="0 0 128 128">
                               <path
                                 fill="currentcolor"
@@ -197,22 +197,22 @@ const LandingPage = () => {
                       </div>
                       <div
                         id="w-node-_94b46030-ccb9-5648-610b-0a3b5e7cf0a4-612cf017"
-                        class="header_floating-langs-item-z is-depth-minus-2"
+                        className="header_floating-langs-item-z is-depth-minus-2"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-dull"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-dull"></div>
                       </div>
                       <div
                         id="w-node-c95e904c-f06e-ca33-b39f-404566865028-612cf017"
-                        class="header_floating-langs-item-z"
+                        className="header_floating-langs-item-z"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-outline"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-outline"></div>
                       </div>
                       <div
                         id="w-node-b77296a5-5fe0-98cc-d4ff-c5acf2226894-612cf017"
-                        class="header_floating-langs-item-z is-depth-plus-1 is-faded-mobile"
+                        className="header_floating-langs-item-z is-depth-plus-1 is-faded-mobile"
                       >
-                        <div class="header_floating-langs-item-x-y">
-                          <div class="header_floating-langs-icon w-embed">
+                        <div className="header_floating-langs-item-x-y">
+                          <div className="header_floating-langs-icon w-embed">
                             <svg viewBox="0 0 128 128">
                               <path
                                 fill="currentcolor"
@@ -224,22 +224,22 @@ const LandingPage = () => {
                       </div>
                       <div
                         id="w-node-_640343c9-46e8-bce4-4cde-8e26379cd658-612cf017"
-                        class="header_floating-langs-item-z is-depth-plus-1"
+                        className="header_floating-langs-item-z is-depth-plus-1"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-outline"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-outline"></div>
                       </div>
                       <div
                         id="w-node-fcf1a2e8-2204-1109-a056-01c64d090726-612cf017"
-                        class="header_floating-langs-item-z is-depth-plus-1"
+                        className="header_floating-langs-item-z is-depth-plus-1"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-dull"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-dull"></div>
                       </div>
                       <div
                         id="w-node-bbde3340-ea00-52da-2b01-59071381daca-612cf017"
-                        class="header_floating-langs-item-z is-depth-plus-1 is-faded-mobile"
+                        className="header_floating-langs-item-z is-depth-plus-1 is-faded-mobile"
                       >
-                        <div class="header_floating-langs-item-x-y">
-                          <div class="header_floating-langs-icon w-embed">
+                        <div className="header_floating-langs-item-x-y">
+                          <div className="header_floating-langs-icon w-embed">
                             <svg
                               viewBox="0 0 24 24"
                               fill="none"
@@ -257,40 +257,40 @@ const LandingPage = () => {
                       </div>
                       <div
                         id="w-node-_54a4b8ed-5d3e-d0c7-cb45-51d7d311910a-612cf017"
-                        class="header_floating-langs-item-z"
+                        className="header_floating-langs-item-z"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-outline"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-outline"></div>
                       </div>
                       <div
                         id="w-node-cbe9ce05-6ef6-3783-09aa-cd48c08594a2-612cf017"
-                        class="header_floating-langs-item-z"
+                        className="header_floating-langs-item-z"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-bright"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-bright"></div>
                       </div>
                       <div
                         id="w-node-_13377759-6a5b-620d-2506-f77f905a0583-612cf017"
-                        class="header_floating-langs-item-z"
+                        className="header_floating-langs-item-z"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank"></div>
+                        <div className="header_floating-langs-item-x-y is-blank"></div>
                       </div>
                       <div
                         id="w-node-d3b6ec1e-5d66-5851-b311-561e26970a4e-612cf017"
-                        class="header_floating-langs-item-z"
+                        className="header_floating-langs-item-z"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-bright"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-bright"></div>
                       </div>
                       <div
                         id="w-node-d875c90e-e4a0-c072-c091-b683f1efb43f-612cf017"
-                        class="header_floating-langs-item-z"
+                        className="header_floating-langs-item-z"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank"></div>
+                        <div className="header_floating-langs-item-x-y is-blank"></div>
                       </div>
                       <div
                         id="w-node-_3843e0f6-14be-ca40-0614-638a26c6af25-612cf017"
-                        class="header_floating-langs-item-z is-faded-mobile"
+                        className="header_floating-langs-item-z is-faded-mobile"
                       >
-                        <div class="header_floating-langs-item-x-y">
-                          <div class="header_floating-langs-icon w-embed">
+                        <div className="header_floating-langs-item-x-y">
+                          <div className="header_floating-langs-icon w-embed">
                             <svg
                               viewBox="0 0 24 24"
                               fill="none"
@@ -314,34 +314,34 @@ const LandingPage = () => {
                       </div>
                       <div
                         id="w-node-c5a305cb-bb4d-467f-444b-6bd4d231019b-612cf017"
-                        class="header_floating-langs-item-z"
+                        className="header_floating-langs-item-z"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank"></div>
+                        <div className="header_floating-langs-item-x-y is-blank"></div>
                       </div>
                       <div
                         id="w-node-_7b463528-cdfc-2325-3024-4fbad2a73c25-612cf017"
-                        class="header_floating-langs-item-z is-depth-minus-2"
+                        className="header_floating-langs-item-z is-depth-minus-2"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-bright"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-bright"></div>
                       </div>
                       <div
                         id="w-node-_86fda317-8121-812c-a599-fcabccb9d4ef-612cf017"
-                        class="header_floating-langs-item-z is-depth-plus-2"
+                        className="header_floating-langs-item-z is-depth-plus-2"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-bright"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-bright"></div>
                       </div>
                       <div
                         id="w-node-_2d8d1803-b5b9-bb60-9cb8-8405334dbc60-612cf017"
-                        class="header_floating-langs-item-z is-depth-minus-2"
+                        className="header_floating-langs-item-z is-depth-minus-2"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-outline"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-outline"></div>
                       </div>
                       <div
                         id="w-node-de1c0f03-c2e8-65e1-7419-c5e4391a24a9-612cf017"
-                        class="header_floating-langs-item-z is-faded-mobile is-behind-text"
+                        className="header_floating-langs-item-z is-faded-mobile is-behind-text"
                       >
-                        <div class="header_floating-langs-item-x-y">
-                          <div class="header_floating-langs-icon w-embed">
+                        <div className="header_floating-langs-item-x-y">
+                          <div className="header_floating-langs-icon w-embed">
                             <svg viewBox="0 0 128 128">
                               <path
                                 fill="currentcolor"
@@ -353,16 +353,16 @@ const LandingPage = () => {
                       </div>
                       <div
                         id="w-node-d3f5e761-87eb-54b7-7ad8-a5aae2e3f03c-612cf017"
-                        class="header_floating-langs-item-z is-depth-plus-1"
+                        className="header_floating-langs-item-z is-depth-plus-1"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-outline"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-outline"></div>
                       </div>
                       <div
                         id="w-node-_3b835b1a-1824-9106-d5c8-2727cec787dc-612cf017"
-                        class="header_floating-langs-item-z is-depth-minus-1 is-faded-mobile"
+                        className="header_floating-langs-item-z is-depth-minus-1 is-faded-mobile"
                       >
-                        <div class="header_floating-langs-item-x-y">
-                          <div class="header_floating-langs-icon w-embed">
+                        <div className="header_floating-langs-item-x-y">
+                          <div className="header_floating-langs-icon w-embed">
                             <svg viewBox="0 0 128 128">
                               <path
                                 fill-rule="evenodd"
@@ -376,9 +376,9 @@ const LandingPage = () => {
                       </div>
                       <div
                         id="w-node-_2cee7884-8f2d-92e1-7c5a-ecde9b3cd807-612cf017"
-                        class="header_floating-langs-item-z"
+                        className="header_floating-langs-item-z"
                       >
-                        <div class="header_floating-langs-item-x-y is-blank-outline"></div>
+                        <div className="header_floating-langs-item-x-y is-blank-outline"></div>
                       </div>
                     </div>
                   </div>
@@ -386,18 +386,18 @@ const LandingPage = () => {
               </div>
             </div>
           </header>
-          <section class="section_overview">
-            <div class="padding-global">
-              <div class="container-large">
-                <div class="padding-section-medium is-padding-bottom-only">
-                  <div class="panels_5-column">
+          <section className="section_overview">
+            <div className="padding-global">
+              <div className="container-large">
+                <div className="padding-section-medium is-padding-bottom-only">
+                  <div className="panels_5-column">
                     <div
                       id="w-node-_19064858-2443-60fc-8df0-d2f95ef53656-612cf017"
-                      class="panels_item is-horizontal background-gradient-red-20"
+                      className="panels_item is-horizontal background-gradient-red-20"
                     >
-                      <div class="panels_item-content">
-                        <div class="icon-tile is-red">
-                          <div class="icon-1x1-small-plus-plus w-embed">
+                      <div className="panels_item-content">
+                        <div className="icon-tile is-red">
+                          <div className="icon-1x1-small-plus-plus w-embed">
                             {/* <svg
                             width="30px"
                             height="26px"
@@ -428,31 +428,31 @@ const LandingPage = () => {
                           </svg> */}
                           </div>
                         </div>
-                        <div class="spacing-block padding-small-plus"></div>
-                        <h2 class="heading-style-h4">
+                        <div className="spacing-block padding-small-plus"></div>
+                        <h2 className="heading-style-h4">
                           Sharpen your coding skills
                         </h2>
-                        <div class="spacing-block padding-small"></div>
-                        <p class="text-size-medium-old-old">
+                        <div className="spacing-block padding-small"></div>
+                        <p className="text-size-medium-old-old">
                           Challenge yourself on small coding exercises called
                           "kata". Each kata is crafted by the community to help
                           you strengthen different coding techniques. Master
                           your current language of choice, or quickly pick up
                           any of the 55+ programming languages supported.
                         </p>
-                        <div class="spacing-block padding-small-plus"></div>
+                        <div className="spacing-block padding-small-plus"></div>
                         <a
                           href="https://www.codewars.com/join"
-                          class="button is-small is-tertiary w-button"
+                          className="button is-small is-tertiary w-button"
                         >
                           Join the Dojo
                         </a>
                       </div>
                       <div
                         id="w-node-_0eef6d8b-e4cd-57b1-575d-71b33b5e0f52-612cf017"
-                        class="panels_item-image-wrapper is-bleed-right"
+                        className="panels_item-image-wrapper is-bleed-right"
                       >
-                        <div class="noisy-image-wrapper">
+                        <div className="noisy-image-wrapper">
                           <img
                             src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf0e8_next-challenge-3.png"
                             loading="lazy"
@@ -464,19 +464,19 @@ const LandingPage = () => {
                             https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf0e8_next-challenge-3.png        1126w
                           "
                             alt=""
-                            class="noisy-image-image"
+                            className="noisy-image-image"
                           />
-                          <div class="noisy-image-noise"></div>
+                          <div className="noisy-image-noise"></div>
                         </div>
                       </div>
                     </div>
                     <div
                       id="w-node-_854d73c4-0163-38fe-7a9e-dd240bbd4e0d-612cf017"
-                      class="panels_item is-vertical"
+                      className="panels_item is-vertical"
                     >
-                      <div class="panels_item-content">
-                        <div class="icon-tile">
-                          <div class="icon-1x1-small-plus-plus w-embed">
+                      <div className="panels_item-content">
+                        <div className="icon-tile">
+                          <div className="icon-1x1-small-plus-plus w-embed">
                             <svg
                               width="24"
                               height="24"
@@ -493,10 +493,10 @@ const LandingPage = () => {
                             </svg>
                           </div>
                         </div>
-                        <div class="spacing-block padding-small-plus"></div>
-                        <h2 class="heading-style-h4">Get instant feedback</h2>
-                        <div class="spacing-block padding-small"></div>
-                        <p class="text-size-medium-old-old">
+                        <div className="spacing-block padding-small-plus"></div>
+                        <h2 className="heading-style-h4">Get instant feedback</h2>
+                        <div className="spacing-block padding-small"></div>
+                        <p className="text-size-medium-old-old">
                           Solve kata with your coding style right in the browser
                           and use test cases (TDD) to check it as you progress.
                           Retrain with new, creative, and optimized approaches.
@@ -505,9 +505,9 @@ const LandingPage = () => {
                       </div>
                       <div
                         id="w-node-_854d73c4-0163-38fe-7a9e-dd240bbd4e1a-612cf017"
-                        class="panels_item-image-wrapper is-bleed-top"
+                        className="panels_item-image-wrapper is-bleed-top"
                       >
-                        <div class="noisy-image-wrapper is-rounded">
+                        <div className="noisy-image-wrapper is-rounded">
                           <img
                             src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf0ed_Training_on_Unique_In_Order___Codewars.jpg"
                             loading="lazy"
@@ -520,19 +520,19 @@ const LandingPage = () => {
                             https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf0ed_Training_on_Unique_In_Order___Codewars-p-1080.jpg 1080w,
                             https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf0ed_Training_on_Unique_In_Order___Codewars.jpg        1310w
                           "
-                            class="noisy-image-image brightened"
+                            className="noisy-image-image brightened"
                           />
-                          <div class="noisy-image-noise"></div>
+                          <div className="noisy-image-noise"></div>
                         </div>
                       </div>
                     </div>
                     <div
                       id="w-node-_93214c83-d9bd-610d-7467-eeca3ce55a9d-612cf017"
-                      class="panels_item is-vertical"
+                      className="panels_item is-vertical"
                     >
-                      <div class="panels_item-content">
-                        <div class="icon-tile">
-                          <div class="icon-1x1-small-plus-plus w-embed">
+                      <div className="panels_item-content">
+                        <div className="icon-tile">
+                          <div className="icon-1x1-small-plus-plus w-embed">
                             <svg
                               width="24"
                               height="24"
@@ -549,18 +549,18 @@ const LandingPage = () => {
                             </svg>
                           </div>
                         </div>
-                        <div class="spacing-block padding-small-plus"></div>
-                        <h2 class="heading-style-h4">Earn ranks and honor</h2>
-                        <div class="spacing-block padding-small"></div>
-                        <p class="text-size-medium-old-old">
+                        <div className="spacing-block padding-small-plus"></div>
+                        <h2 className="heading-style-h4">Earn ranks and honor</h2>
+                        <div className="spacing-block padding-small"></div>
+                        <p className="text-size-medium-old-old">
                           Kata code challenges are ranked from beginner to
                           expert level. As you complete higher-ranked kata, you
                           level up your profile and push your software
                           development skills to your highest potential.
                         </p>
                       </div>
-                      <div class="panels_item-image-wrapper is-bleed-full">
-                        <div class="noisy-image-wrapper">
+                      <div className="panels_item-image-wrapper is-bleed-full">
+                        <div className="noisy-image-wrapper">
                           <img
                             src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf06b_ranks.png"
                             loading="lazy"
@@ -572,9 +572,9 @@ const LandingPage = () => {
                             https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf06b_ranks.png        1512w
                           "
                             alt=""
-                            class="noisy-image-image"
+                            className="noisy-image-image"
                           />
-                          <div class="noisy-image-noise"></div>
+                          <div className="noisy-image-noise"></div>
                         </div>
                       </div>
                     </div>
@@ -583,14 +583,14 @@ const LandingPage = () => {
               </div>
             </div>
           </section>
-          <section class="section_community">
-            <div class="padding-global">
-              <div class="container-small-plus">
-                <div class="padding-section-small is-padding-bottom-only">
-                  <div class="text-align-center">
+          <section className="section_community">
+            <div className="padding-global">
+              <div className="container-small-plus">
+                <div className="padding-section-small is-padding-bottom-only">
+                  <div className="text-align-center">
                     <h2>An engaged software development community</h2>
-                    <div class="spacing-block padding-small-plus"></div>
-                    <p class="text-size-large">
+                    <div className="spacing-block padding-small-plus"></div>
+                    <p className="text-size-large">
                       Codewars is a collective effort by its users. They are
                       creators—authoring kata to teach various techniques,
                       solving kata with solutions that enlighten others, and
@@ -599,36 +599,36 @@ const LandingPage = () => {
                   </div>
                 </div>
               </div>
-              <div class="container-large">
-                <div class="padding-section-medium is-padding-bottom-only">
-                  <div class="panels_5-column">
+              <div className="container-large">
+                <div className="padding-section-medium is-padding-bottom-only">
+                  <div className="panels_5-column">
                     <div
                       id="w-node-_6dca05a4-c2a9-f67c-e911-a478ae3bb86c-612cf017"
-                      class="panels_item is-3-column background-gradient-red-70"
+                      className="panels_item is-3-column background-gradient-red-70"
                     >
-                      <div class="panels_item-column">
-                        <p class="heading-style-h1">75K+</p>
-                        <div class="spacing-block padding-small"></div>
+                      <div className="panels_item-column">
+                        <p className="heading-style-h1">75K+</p>
+                        <div className="spacing-block padding-small"></div>
                         <p>Community members added every month</p>
                       </div>
-                      <div class="panels_item-column">
-                        <p class="heading-style-h1">1M+</p>
-                        <div class="spacing-block padding-small"></div>
+                      <div className="panels_item-column">
+                        <p className="heading-style-h1">1M+</p>
+                        <div className="spacing-block padding-small"></div>
                         <p>Kata completed every month</p>
                       </div>
-                      <div class="panels_item-column">
-                        <p class="heading-style-h1">12K+</p>
-                        <div class="spacing-block padding-small"></div>
+                      <div className="panels_item-column">
+                        <p className="heading-style-h1">12K+</p>
+                        <div className="spacing-block padding-small"></div>
                         <p>Kata created by our community</p>
                       </div>
                     </div>
                     <div
                       id="w-node-_6dca05a4-c2a9-f67c-e911-a478ae3bb889-612cf017"
-                      class="panels_item is-vertical"
+                      className="panels_item is-vertical"
                     >
-                      <div class="panels_item-content">
-                        <div class="icon-tile">
-                          <div class="icon-1x1-small-plus-plus w-embed">
+                      <div className="panels_item-content">
+                        <div className="icon-tile">
+                          <div className="icon-1x1-small-plus-plus w-embed">
                             <svg
                               width="24"
                               height="24"
@@ -645,12 +645,12 @@ const LandingPage = () => {
                             </svg>
                           </div>
                         </div>
-                        <div class="spacing-block padding-small-plus"></div>
-                        <h2 class="heading-style-h4">
+                        <div className="spacing-block padding-small-plus"></div>
+                        <h2 className="heading-style-h4">
                           Tap into the collective wisdom
                         </h2>
-                        <div class="spacing-block padding-small"></div>
-                        <p class="text-size-medium-old-old">
+                        <div className="spacing-block padding-small"></div>
+                        <p className="text-size-medium-old-old">
                           Compare your solution with others after each kata for
                           greater understanding. Discuss kata, best practices,
                           and innovative techniques with the community. Have
@@ -658,8 +658,8 @@ const LandingPage = () => {
                           be from your own.
                         </p>
                       </div>
-                      <div class="panels_item-image-wrapper is-bleed-bottom">
-                        <div class="noisy-image-wrapper">
+                      <div className="panels_item-image-wrapper is-bleed-bottom">
+                        <div className="noisy-image-wrapper">
                           <img
                             src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf094_hex-globe.png"
                             loading="lazy"
@@ -671,19 +671,19 @@ const LandingPage = () => {
                             https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf094_hex-globe.png        1256w
                           "
                             alt=""
-                            class="noisy-image-image"
+                            className="noisy-image-image"
                           />
-                          <div class="noisy-image-noise"></div>
+                          <div className="noisy-image-noise"></div>
                         </div>
                       </div>
                     </div>
                     <div
                       id="w-node-_6dca05a4-c2a9-f67c-e911-a478ae3bb87b-612cf017"
-                      class="panels_item is-vertical"
+                      className="panels_item is-vertical"
                     >
-                      <div class="panels_item-content">
-                        <div class="icon-tile">
-                          <div class="icon-1x1-small-plus-plus w-embed">
+                      <div className="panels_item-content">
+                        <div className="icon-tile">
+                          <div className="icon-1x1-small-plus-plus w-embed">
                             <svg
                               width="24"
                               height="24"
@@ -700,10 +700,10 @@ const LandingPage = () => {
                             </svg>
                           </div>
                         </div>
-                        <div class="spacing-block padding-small-plus"></div>
-                        <h2 class="heading-style-h4">Create your own kata</h2>
-                        <div class="spacing-block padding-small"></div>
-                        <p class="text-size-medium-old-old">
+                        <div className="spacing-block padding-small-plus"></div>
+                        <h2 className="heading-style-h4">Create your own kata</h2>
+                        <div className="spacing-block padding-small"></div>
+                        <p className="text-size-medium-old-old">
                           Author kata that focus on your interests and train
                           specific skill sets. Challenge the community with your
                           insight and code understanding. Create everything from
@@ -714,9 +714,9 @@ const LandingPage = () => {
                       </div>
                       <div
                         id="w-node-_6dca05a4-c2a9-f67c-e911-a478ae3bb885-612cf017"
-                        class="panels_item-image-wrapper is-bleed-top"
+                        className="panels_item-image-wrapper is-bleed-top"
                       >
-                        <div class="noisy-image-wrapper is-rounded">
+                        <div className="noisy-image-wrapper is-rounded">
                           <img
                             src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf095_create-kata.png"
                             loading="lazy"
@@ -726,9 +726,9 @@ const LandingPage = () => {
                             https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf095_create-kata.png       744w
                           "
                             alt=""
-                            class="noisy-image-image"
+                            className="noisy-image-image"
                           />
-                          <div class="noisy-image-noise"></div>
+                          <div className="noisy-image-noise"></div>
                         </div>
                       </div>
                     </div>
@@ -737,29 +737,29 @@ const LandingPage = () => {
               </div>
             </div>
           </section>
-          <section class="section_faq">
-            <div class="padding-global">
-              <div class="container-small">
-                <div class="padding-section-small is-padding-bottom-only">
-                  <div class="text-align-center">
+          <section className="section_faq">
+            <div className="padding-global">
+              <div className="container-small">
+                <div className="padding-section-small is-padding-bottom-only">
+                  <div className="text-align-center">
                     <h2>What can I use Codewars for?</h2>
-                    <div class="spacing-block padding-small-plus"></div>
-                    <p class="text-size-large">
+                    <div className="spacing-block padding-small-plus"></div>
+                    <p className="text-size-large">
                       From beginner to expert and beyond...
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="container-large">
-                <div class="padding-section-medium is-padding-bottom-only">
-                  <div class="panels_6-column">
+              <div className="container-large">
+                <div className="padding-section-medium is-padding-bottom-only">
+                  <div className="panels_6-column">
                     <div
                       id="w-node-_6a8db5dd-c05b-a0ca-034a-87c76f50c58f-612cf017"
-                      class="panels_item is-vertical"
+                      className="panels_item is-vertical"
                     >
-                      <div class="panels_item-content">
-                        <div class="icon-tile is-small is-red">
-                          <div class="icon-1x1-small-plus w-embed">
+                      <div className="panels_item-content">
+                        <div className="icon-tile is-small is-red">
+                          <div className="icon-1x1-small-plus w-embed">
                             <svg
                               width="20"
                               height="20"
@@ -776,10 +776,10 @@ const LandingPage = () => {
                             </svg>
                           </div>
                         </div>
-                        <div class="spacing-block padding-small-plus"></div>
-                        <h3 class="heading-style-h5">Get new perspectives</h3>
-                        <div class="spacing-block padding-small"></div>
-                        <p class="text-size-medium-old-old">
+                        <div className="spacing-block padding-small-plus"></div>
+                        <h3 className="heading-style-h5">Get new perspectives</h3>
+                        <div className="spacing-block padding-small"></div>
+                        <p className="text-size-medium-old-old">
                           Solve challenges then view how others solved the same
                           challenge. Pickup new techniques from some of the most
                           skilled developers in the world.
@@ -788,11 +788,11 @@ const LandingPage = () => {
                     </div>
                     <div
                       id="w-node-_6ec6a705-a191-fbdc-fae4-5836b0204060-612cf017"
-                      class="panels_item is-vertical"
+                      className="panels_item is-vertical"
                     >
-                      <div class="panels_item-content">
-                        <div class="icon-tile is-small is-red">
-                          <div class="icon-1x1-small-plus w-embed">
+                      <div className="panels_item-content">
+                        <div className="icon-tile is-small is-red">
+                          <div className="icon-1x1-small-plus w-embed">
                             <svg
                               width="21"
                               height="20"
@@ -809,10 +809,10 @@ const LandingPage = () => {
                             </svg>
                           </div>
                         </div>
-                        <div class="spacing-block padding-small-plus"></div>
-                        <h3 class="heading-style-h5">Learn new languages</h3>
-                        <div class="spacing-block padding-small"></div>
-                        <p class="text-size-medium-old-old">
+                        <div className="spacing-block padding-small-plus"></div>
+                        <h3 className="heading-style-h5">Learn new languages</h3>
+                        <div className="spacing-block padding-small"></div>
+                        <p className="text-size-medium-old-old">
                           Solve challenges in a language you are comfortable
                           with, then do it in a language you want to improve
                           with. Level up across different languages.
@@ -821,11 +821,11 @@ const LandingPage = () => {
                     </div>
                     <div
                       id="w-node-_41736ae3-6d5b-6f88-fdbf-3f55c2200061-612cf017"
-                      class="panels_item is-vertical"
+                      className="panels_item is-vertical"
                     >
-                      <div class="panels_item-content">
-                        <div class="icon-tile is-small is-red">
-                          <div class="icon-1x1-small-plus w-embed">
+                      <div className="panels_item-content">
+                        <div className="icon-tile is-small is-red">
+                          <div className="icon-1x1-small-plus w-embed">
                             <svg
                               width="21"
                               height="20"
@@ -842,10 +842,10 @@ const LandingPage = () => {
                             </svg>
                           </div>
                         </div>
-                        <div class="spacing-block padding-small-plus"></div>
-                        <h3 class="heading-style-h5">Compete with peers</h3>
-                        <div class="spacing-block padding-small"></div>
-                        <p class="text-size-medium-old-old">
+                        <div className="spacing-block padding-small-plus"></div>
+                        <h3 className="heading-style-h5">Compete with peers</h3>
+                        <div className="spacing-block padding-small"></div>
+                        <p className="text-size-medium-old-old">
                           Compete against your friends, colleagues, and the
                           community at large. Allow competition to motivate you
                           &nbsp;towards mastering your craft.
@@ -854,12 +854,12 @@ const LandingPage = () => {
                     </div>
                     <div
                       id="w-node-d97491b3-b448-e883-20ec-1472063e9930-612cf017"
-                      class="panels_item is-vertical"
+                      className="panels_item is-vertical"
                     >
                       <div
                         data-delay="5000"
                         data-animation="cross"
-                        class="slider w-slider"
+                        className="slider w-slider"
                         data-autoplay="true"
                         data-easing="ease-in-out"
                         data-hide-arrows="false"
@@ -872,51 +872,51 @@ const LandingPage = () => {
                         role="region"
                         aria-label="carousel"
                       >
-                        <div class="w-slider-mask" id="w-slider-mask-0">
+                        <div className="w-slider-mask" id="w-slider-mask-0">
                           <div
-                            class="w-slide"
+                            className="w-slide"
                             aria-label="1 of 2"
                             role="group"
                             aria-hidden="true"
                           >
                             <div
-                              class="panels_item-content is-slider"
+                              className="panels_item-content is-slider"
                               aria-hidden="true"
                             >
                               <div
-                                class="text-align-center max-width-large align-center"
+                                className="text-align-center max-width-large align-center"
                                 aria-hidden="true"
                               >
-                                <p class="heading-style-h3" aria-hidden="true">
+                                <p className="heading-style-h3" aria-hidden="true">
                                   Extremely well done and an excellent example
                                   of mastery learning.
                                 </p>
                                 <div
-                                  class="spacing-block padding-medium"
+                                  className="spacing-block padding-medium"
                                   aria-hidden="true"
                                 ></div>
                                 <div
-                                  class="noisy-image-wrapper profile-pic align-center"
+                                  className="noisy-image-wrapper profile-pic align-center"
                                   aria-hidden="true"
                                 >
                                   <img
                                     src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf098_XcDq5TCM_400x400.jpeg"
                                     loading="lazy"
                                     alt=""
-                                    class="noisy-image-image profile-pic"
+                                    className="noisy-image-image profile-pic"
                                     aria-hidden="true"
                                   />
                                   <div
-                                    class="noisy-image-noise"
+                                    className="noisy-image-noise"
                                     aria-hidden="true"
                                   ></div>
                                 </div>
                                 <div
-                                  class="spacing-block padding-small"
+                                  className="spacing-block padding-small"
                                   aria-hidden="true"
                                 ></div>
                                 <p
-                                  class="text-size-medium-old-old text-weight-bold"
+                                  className="text-size-medium-old-old text-weight-bold"
                                   aria-hidden="true"
                                 >
                                   Ahmed Omran
@@ -933,26 +933,26 @@ const LandingPage = () => {
                               </div>
                             </div>
                           </div>
-                          <div class="w-slide" aria-label="2 of 2" role="group">
-                            <div class="panels_item-content is-slider">
-                              <div class="text-align-center max-width-large align-center">
-                                <p class="heading-style-h3">
+                          <div className="w-slide" aria-label="2 of 2" role="group">
+                            <div className="panels_item-content is-slider">
+                              <div className="text-align-center max-width-large align-center">
+                                <p className="heading-style-h3">
                                   Accidentally got addicted to codewars, oops.
                                 </p>
-                                <div class="spacing-block padding-medium"></div>
-                                <div class="display-inlineflex">
-                                  <div class="noisy-image-wrapper">
+                                <div className="spacing-block padding-medium"></div>
+                                <div className="display-inlineflex">
+                                  <div className="noisy-image-wrapper">
                                     <img
                                       src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf097_molly.jpeg"
                                       loading="lazy"
                                       alt=""
-                                      class="noisy-image-image profile-pic"
+                                      className="noisy-image-image profile-pic"
                                     />
-                                    <div class="noisy-image-noise"></div>
+                                    <div className="noisy-image-noise"></div>
                                   </div>
                                 </div>
-                                <div class="spacing-block padding-small"></div>
-                                <p class="text-size-medium-old-old text-weight-bold">
+                                <div className="spacing-block padding-small"></div>
+                                <p className="text-size-medium-old-old text-weight-bold">
                                   Kelly Williams
                                 </p>
                                 <p>Coder</p>
@@ -962,33 +962,33 @@ const LandingPage = () => {
                           <div
                             aria-live="off"
                             aria-atomic="true"
-                            class="w-slider-aria-label"
+                            className="w-slider-aria-label"
                             data-wf-ignore=""
                           >
                             Slide 2 of 2.
                           </div>
                         </div>
                         <div
-                          class="slider-arrow w-slider-arrow-left"
+                          className="slider-arrow w-slider-arrow-left"
                           role="button"
                           tabindex="0"
                           aria-controls="w-slider-mask-0"
                           aria-label="previous slide"
                         >
-                          <div class="w-icon-slider-left"></div>
+                          <div className="w-icon-slider-left"></div>
                         </div>
                         <div
-                          class="slider-arrow w-slider-arrow-right"
+                          className="slider-arrow w-slider-arrow-right"
                           role="button"
                           tabindex="0"
                           aria-controls="w-slider-mask-0"
                           aria-label="next slide"
                         >
-                          <div class="w-icon-slider-right"></div>
+                          <div className="w-icon-slider-right"></div>
                         </div>
-                        <div class="slider-nav w-slider-nav w-round">
+                        <div className="slider-nav w-slider-nav w-round">
                           <div
-                            class="w-slider-dot"
+                            className="w-slider-dot"
                             data-wf-ignore=""
                             aria-label="Show slide 1 of 2"
                             aria-pressed="false"
@@ -996,7 +996,7 @@ const LandingPage = () => {
                             tabindex="-1"
                           ></div>
                           <div
-                            class="w-slider-dot w-active"
+                            className="w-slider-dot w-active"
                             data-wf-ignore=""
                             aria-label="Show slide 2 of 2"
                             aria-pressed="true"
@@ -1008,11 +1008,11 @@ const LandingPage = () => {
                     </div>
                     <div
                       id="w-node-_9f23248e-74b7-e718-6231-15743f7ea4ba-612cf017"
-                      class="panels_item is-vertical"
+                      className="panels_item is-vertical"
                     >
-                      <div class="panels_item-content">
-                        <div class="icon-tile is-small is-red">
-                          <div class="icon-1x1-small-plus w-embed">
+                      <div className="panels_item-content">
+                        <div className="icon-tile is-small is-red">
+                          <div className="icon-1x1-small-plus w-embed">
                             <svg
                               width="20"
                               height="20"
@@ -1020,7 +1020,7 @@ const LandingPage = () => {
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
                             >
-                              <g clip-path="url(#clip0_443_1488)">
+                              <g clipPath="url(#clip0_443_1488)">
                                 <path
                                   fill-rule="evenodd"
                                   clip-rule="evenodd"
@@ -1044,10 +1044,10 @@ const LandingPage = () => {
                             </svg>
                           </div>
                         </div>
-                        <div class="spacing-block padding-small-plus"></div>
-                        <h3 class="heading-style-h5">Build self-confidence</h3>
-                        <div class="spacing-block padding-small"></div>
-                        <p class="text-size-medium-old-old">
+                        <div className="spacing-block padding-small-plus"></div>
+                        <h3 className="heading-style-h5">Build self-confidence</h3>
+                        <div className="spacing-block padding-small"></div>
+                        <p className="text-size-medium-old-old">
                           Not sure if you are progressing well as a programmer?
                           Push yourself to your limits and show yourself what
                           you are really made of.
@@ -1056,11 +1056,11 @@ const LandingPage = () => {
                     </div>
                     <div
                       id="w-node-_709d73ed-45f6-b4a2-f304-0b75f732a915-612cf017"
-                      class="panels_item is-vertical"
+                      className="panels_item is-vertical"
                     >
-                      <div class="panels_item-content">
-                        <div class="icon-tile is-small is-red">
-                          <div class="icon-1x1-small-plus w-embed">
+                      <div className="panels_item-content">
+                        <div className="icon-tile is-small is-red">
+                          <div className="icon-1x1-small-plus w-embed">
                             <svg
                               width="20"
                               height="20"
@@ -1068,7 +1068,7 @@ const LandingPage = () => {
                               fill="none"
                               xmlns="http://www.w3.org/2000/svg"
                             >
-                              <g clip-path="url(#clip0_443_1492)">
+                              <g clipPath="url(#clip0_443_1492)">
                                 <path
                                   fill-rule="evenodd"
                                   clip-rule="evenodd"
@@ -1088,10 +1088,10 @@ const LandingPage = () => {
                             </svg>
                           </div>
                         </div>
-                        <div class="spacing-block padding-small-plus"></div>
-                        <h3 class="heading-style-h5">Become a mentor</h3>
-                        <div class="spacing-block padding-small"></div>
-                        <p class="text-size-medium-old-old">
+                        <div className="spacing-block padding-small-plus"></div>
+                        <h3 className="heading-style-h5">Become a mentor</h3>
+                        <div className="spacing-block padding-small"></div>
+                        <p className="text-size-medium-old-old">
                           Lend your expertise to others, either indirectly by
                           contributing great solutions or directly by creating
                           your own kata and reviewing code.
@@ -1103,32 +1103,32 @@ const LandingPage = () => {
               </div>
             </div>
           </section>
-          <section class="section_latest">
-            <div class="padding-global">
-              <div class="container-small">
-                <div class="padding-section-small is-padding-bottom-only">
-                  <div class="text-align-center">
+          <section className="section_latest">
+            <div className="padding-global">
+              <div className="container-small">
+                <div className="padding-section-small is-padding-bottom-only">
+                  <div className="text-align-center">
                     <h2>The latest</h2>
-                    <div class="spacing-block padding-small-plus"></div>
-                    <p class="text-size-large">
+                    <div className="spacing-block padding-small-plus"></div>
+                    <p className="text-size-large">
                       Insights from Codewars staff and community.
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="container-large">
-                <div class="padding-section-medium is-padding-bottom-only">
-                  <div class="blog7_featured-list-wrapper w-dyn-list">
-                    <div role="list" class="blog7_featured-list w-dyn-items">
+              <div className="container-large">
+                <div className="padding-section-medium is-padding-bottom-only">
+                  <div className="blog7_featured-list-wrapper w-dyn-list">
+                    <div role="list" className="blog7_featured-list w-dyn-items">
                       <div
                         role="listitem"
-                        class="blog7_featured-item w-dyn-item"
+                        className="blog7_featured-item w-dyn-item"
                       >
-                        <div class="blog7_item-link">
-                          <div class="blog7_featured-item-wrapper">
+                        <div className="blog7_item-link">
+                          <div className="blog7_featured-item-wrapper">
                             <a
                               href="https://www.codewars.com/post/authors-corner-meet-geoffp"
-                              class="blog7_image-wrapper is-featured-article w-inline-block"
+                              className="blog7_image-wrapper is-featured-article w-inline-block"
                             >
                               <img
                                 src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf2aa_CW Blog post headings  (3).png"
@@ -1141,38 +1141,38 @@ const LandingPage = () => {
                                 https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf020/6674f0cdb5b7b401612cf2aa_CW%2520Blog%2520post%2520headings%2520%2520(3)-p-1080.png 1080w,
                                 https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf020/6674f0cdb5b7b401612cf2aa_CW%20Blog%20post%20headings%20%20(3).png                  1200w
                               "
-                                class="blog7_image"
+                                className="blog7_image"
                               />
-                              <div class="noisy-image-noise"></div>
+                              <div className="noisy-image-noise"></div>
                             </a>
-                            <div class="blog7_featured-item-content">
-                              <div class="blog7_item-content-top">
-                                <div class="simple-row">
+                            <div className="blog7_featured-item-content">
+                              <div className="blog7_item-content-top">
+                                <div className="simple-row">
                                   <a
                                     href="https://www.codewars.com/blog-categories/authors-corner"
-                                    class="pill"
+                                    className="pill"
                                   >
                                     Author's Corner
                                   </a>
                                 </div>
-                                <div class="spacing-block padding-small-plus"></div>
+                                <div className="spacing-block padding-small-plus"></div>
                                 <a
                                   href="https://www.codewars.com/post/authors-corner-meet-geoffp"
-                                  class="w-inline-block"
+                                  className="w-inline-block"
                                 >
                                   <h3>Author's Corner, meet geoffp</h3>
-                                  <div class="spacing-block-old padding-small"></div>
-                                  <div class="text-size-medium">
+                                  <div className="spacing-block-old padding-small"></div>
+                                  <div className="text-size-medium">
                                     Author’s Corner is a new series that
                                     spotlights Codewars community members who
                                     contribute new and exciting Kata to
                                     Codewars.
                                   </div>
                                 </a>
-                                <div class="spacing-block padding-small-plus"></div>
+                                <div className="spacing-block padding-small-plus"></div>
                               </div>
-                              <div class="blog7_author-wrapper">
-                                <div class="noisy-image-wrapper profile-pic">
+                              <div className="blog7_author-wrapper">
+                                <div className="noisy-image-wrapper profile-pic">
                                   <img
                                     loading="lazy"
                                     alt=""
@@ -1184,16 +1184,16 @@ const LandingPage = () => {
                                     https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf020/6674f0cdb5b7b401612cf2a2_pop%2520art%2520profile-p-1080.png 1080w,
                                     https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf020/6674f0cdb5b7b401612cf2a2_pop%20art%20profile.png            1200w
                                   "
-                                    class="noisy-image-image"
+                                    className="noisy-image-image"
                                   />
-                                  <div class="noisy-image-noise"></div>
+                                  <div className="noisy-image-noise"></div>
                                 </div>
-                                <div class="blog7_author-text">
-                                  <div class="text-weight-bold">
+                                <div className="blog7_author-text">
+                                  <div className="text-weight-bold">
                                     Vanessa Greene
                                   </div>
-                                  <div class="blog7_date-wrapper">
-                                    <div class="text-size-small">
+                                  <div className="blog7_date-wrapper">
+                                    <div className="text-size-small">
                                       May 29, 2024
                                     </div>
                                   </div>
@@ -1205,14 +1205,14 @@ const LandingPage = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="spacing-block padding-small-plus"></div>
-                  <div class="blog7_list-wrapper w-dyn-list">
-                    <div role="list" class="blog7_list w-dyn-items">
-                      <div role="listitem" class="blog7_item w-dyn-item">
-                        <div class="blog7_item-link">
+                  <div className="spacing-block padding-small-plus"></div>
+                  <div className="blog7_list-wrapper w-dyn-list">
+                    <div role="list" className="blog7_list w-dyn-items">
+                      <div role="listitem" className="blog7_item w-dyn-item">
+                        <div className="blog7_item-link">
                           <a
                             href="https://www.codewars.com/post/whats-new-in-codewars-april-highlights"
-                            class="blog7_image-wrapper w-inline-block"
+                            className="blog7_image-wrapper w-inline-block"
                           >
                             <img
                               src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf2a8_CW Blog post headings THUMBNAIL  (800 x 800 px).png"
@@ -1223,38 +1223,38 @@ const LandingPage = () => {
                               https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf020/6674f0cdb5b7b401612cf2a8_CW%2520Blog%2520post%2520headings%2520THUMBNAIL%2520%2520(800%2520x%2520800%2520px)-p-500.png 500w,
                               https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf020/6674f0cdb5b7b401612cf2a8_CW%20Blog%20post%20headings%20THUMBNAIL%20%20(800%20x%20800%20px).png                         800w
                             "
-                              class="blog7_image"
+                              className="blog7_image"
                             />
-                            <div class="noisy-image-noise"></div>
+                            <div className="noisy-image-noise"></div>
                           </a>
-                          <div class="blog7_item-content">
-                            <div class="blog7_item-content-top">
-                              <div class="simple-row">
+                          <div className="blog7_item-content">
+                            <div className="blog7_item-content-top">
+                              <div className="simple-row">
                                 <a
                                   href="https://www.codewars.com/blog-categories/codewars"
-                                  class="pill"
+                                  className="pill"
                                 >
                                   Product News
                                 </a>
                               </div>
-                              <div class="spacing-block padding-small-plus"></div>
+                              <div className="spacing-block padding-small-plus"></div>
                               <a
                                 href="https://www.codewars.com/post/whats-new-in-codewars-april-highlights"
-                                class="w-inline-block"
+                                className="w-inline-block"
                               >
-                                <h3 class="heading-style-h4">
+                                <h3 className="heading-style-h4">
                                   What's new in Codewars: April highlights
                                 </h3>
-                                <div class="spacing-block padding-small"></div>
-                                <div class="text-size-medium">
+                                <div className="spacing-block padding-small"></div>
+                                <div className="text-size-medium">
                                   Welcome back to this month’s highlights from
                                   the Codewars engineering team!
                                 </div>
                               </a>
-                              <div class="spacing-block padding-small-plus"></div>
+                              <div className="spacing-block padding-small-plus"></div>
                             </div>
-                            <div class="blog7_author-wrapper">
-                              <div class="noisy-image-wrapper profile-pic">
+                            <div className="blog7_author-wrapper">
+                              <div className="noisy-image-wrapper profile-pic">
                                 <img
                                   loading="lazy"
                                   alt=""
@@ -1266,16 +1266,16 @@ const LandingPage = () => {
                                   https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf020/6674f0cdb5b7b401612cf2a2_pop%2520art%2520profile-p-1080.png 1080w,
                                   https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf020/6674f0cdb5b7b401612cf2a2_pop%20art%20profile.png            1200w
                                 "
-                                  class="noisy-image-image"
+                                  className="noisy-image-image"
                                 />
-                                <div class="noisy-image-noise"></div>
+                                <div className="noisy-image-noise"></div>
                               </div>
-                              <div class="blog7_author-text">
-                                <div class="text-weight-bold">
+                              <div className="blog7_author-text">
+                                <div className="text-weight-bold">
                                   Vanessa Greene
                                 </div>
-                                <div class="blog7_date-wrapper">
-                                  <div class="text-size-small">
+                                <div className="blog7_date-wrapper">
+                                  <div className="text-size-small">
                                     May 24, 2024
                                   </div>
                                 </div>
@@ -1284,11 +1284,11 @@ const LandingPage = () => {
                           </div>
                         </div>
                       </div>
-                      <div role="listitem" class="blog7_item w-dyn-item">
-                        <div class="blog7_item-link">
+                      <div role="listitem" className="blog7_item w-dyn-item">
+                        <div className="blog7_item-link">
                           <a
                             href="https://www.codewars.com/post/introducing-the-epic-challenge-2024"
-                            class="blog7_image-wrapper w-inline-block"
+                            className="blog7_image-wrapper w-inline-block"
                           >
                             <img
                               src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf2a4_CW Blog post headings .png"
@@ -1301,39 +1301,39 @@ const LandingPage = () => {
                               https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf020/6674f0cdb5b7b401612cf2a4_CW%2520Blog%2520post%2520headings%2520-p-1080.png 1080w,
                               https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf020/6674f0cdb5b7b401612cf2a4_CW%20Blog%20post%20headings%20.png                1200w
                             "
-                              class="blog7_image"
+                              className="blog7_image"
                             />
-                            <div class="noisy-image-noise"></div>
+                            <div className="noisy-image-noise"></div>
                           </a>
-                          <div class="blog7_item-content">
-                            <div class="blog7_item-content-top">
-                              <div class="simple-row">
+                          <div className="blog7_item-content">
+                            <div className="blog7_item-content-top">
+                              <div className="simple-row">
                                 <a
                                   href="https://www.codewars.com/blog-categories/competitions"
-                                  class="pill"
+                                  className="pill"
                                 >
                                   Competitions
                                 </a>
                               </div>
-                              <div class="spacing-block padding-small-plus"></div>
+                              <div className="spacing-block padding-small-plus"></div>
                               <a
                                 href="https://www.codewars.com/post/introducing-the-epic-challenge-2024"
-                                class="w-inline-block"
+                                className="w-inline-block"
                               >
-                                <h3 class="heading-style-h4">
+                                <h3 className="heading-style-h4">
                                   Introducing the EPIC Challenge 2024
                                 </h3>
-                                <div class="spacing-block padding-small"></div>
-                                <div class="text-size-medium">
+                                <div className="spacing-block padding-small"></div>
+                                <div className="text-size-medium">
                                   🏆 Introducing The EPIC Challenge a two-part
                                   coding challenge in honor of Andela's 10-year
                                   anniversary.
                                 </div>
                               </a>
-                              <div class="spacing-block padding-small-plus"></div>
+                              <div className="spacing-block padding-small-plus"></div>
                             </div>
-                            <div class="blog7_author-wrapper">
-                              <div class="noisy-image-wrapper profile-pic">
+                            <div className="blog7_author-wrapper">
+                              <div className="noisy-image-wrapper profile-pic">
                                 <img
                                   loading="lazy"
                                   alt=""
@@ -1345,16 +1345,16 @@ const LandingPage = () => {
                                   https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf020/6674f0cdb5b7b401612cf2a2_pop%2520art%2520profile-p-1080.png 1080w,
                                   https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf020/6674f0cdb5b7b401612cf2a2_pop%20art%20profile.png            1200w
                                 "
-                                  class="noisy-image-image"
+                                  className="noisy-image-image"
                                 />
-                                <div class="noisy-image-noise"></div>
+                                <div className="noisy-image-noise"></div>
                               </div>
-                              <div class="blog7_author-text">
-                                <div class="text-weight-bold">
+                              <div className="blog7_author-text">
+                                <div className="text-weight-bold">
                                   Vanessa Greene
                                 </div>
-                                <div class="blog7_date-wrapper">
-                                  <div class="text-size-small">
+                                <div className="blog7_date-wrapper">
+                                  <div className="text-size-small">
                                     April 29, 2024
                                   </div>
                                 </div>
@@ -1369,15 +1369,15 @@ const LandingPage = () => {
               </div>
             </div>
           </section>
-          <section class="section_qualified">
-            <div class="padding-global">
-              <div class="container-large">
-                <div class="padding-section-medium is-padding-bottom-only">
-                  <div class="panels_item background-gradient-green-20">
-                    <div class="panels_item-content">
-                      <div class="text-align-center max-width-large align-center">
+          <section className="section_qualified">
+            <div className="padding-global">
+              <div className="container-large">
+                <div className="padding-section-medium is-padding-bottom-only">
+                  <div className="panels_item background-gradient-green-20">
+                    <div className="panels_item-content">
+                      <div className="text-align-center max-width-large align-center">
                         <h6>codewars IS&nbsp;BUILT ON</h6>
-                        <div class="spacing-block padding-medium"></div>
+                        <div className="spacing-block padding-medium"></div>
                         <img
                           src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf0f1_qualified-full-color-white.svg"
                           loading="lazy"
@@ -1385,17 +1385,17 @@ const LandingPage = () => {
                           height="120"
                           alt=""
                         />
-                        <div class="spacing-block padding-medium"></div>
-                        <p class="text-size-medium-old-old">
+                        <div className="spacing-block padding-medium"></div>
+                        <p className="text-size-medium-old-old">
                           The world's most advanced coding assessment platform
                           for organizations looking to scale their hiring,
                           upskilling, and certification programs.
                         </p>
-                        <div class="spacing-block padding-medium"></div>
+                        <div className="spacing-block padding-medium"></div>
                         <a
                           href="https://www.qualified.io/?utm_source=codewars&amp;utm_campaign=footerp"
                           target="_blank"
-                          class="button is-qualified w-button"
+                          className="button is-qualified w-button"
                         >
                           Learn more
                         </a>
