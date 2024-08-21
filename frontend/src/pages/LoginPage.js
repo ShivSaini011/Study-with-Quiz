@@ -111,14 +111,14 @@ const LoginPage = () => {
                 value="9GmmrCJdasvuGTMwzE1vPcwrxu7P6kjgCIfNt6Wy57WNONE/pbP040sE22u/cc6oPbQzcV7FizPASXerBjIqfQ=="
                 autoComplete="off"
               />
-              <a data-turbolinks="false" href="https://www.codewars.com/">
+              <a data-turbolinks="false" href="/">
                 <img
                   className="hidden dark:block w-48 h-full object-contain mx-auto my-0 pb-10"
-                  src="./"
+                  src="/images/login.png"
                 />
                 <img
                   className="block dark:hidden w-48 h-full object-contain mx-auto my-0 pb-10"
-                  src="./"
+                  src="/images/login.png"
                 />
               </a>
               <button

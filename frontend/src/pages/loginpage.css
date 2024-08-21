@@ -1367,8 +1367,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: inherit;
-  font-weight: inherit;
+  /* font-size: inherit; */
+  /* font-weight: inherit; */
 }
 a {
   color: inherit;
@@ -1461,12 +1461,7 @@ summary {
 blockquote,
 dl,
 dd,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+
 hr,
 figure,
 p,
@@ -3896,19 +3891,7 @@ p {
   font-weight: 400;
   line-height: 1.6;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-sans-serif);
-  font-weight: 400;
-  text-rendering: optimizeLegibility;
-  line-height: 1.4;
-  margin-bottom: 14px;
-  margin-top: 14px;
-}
+
 h1 small,
 h2 small,
 h3 small,
@@ -3934,12 +3917,16 @@ h5 small,
 h6 small {
   color: var(--color-ui-text-heading-small);
 }
-h1 {
-  font-size: 21px;
-  font-weight: 700;
-}
+
+/* h2 {
+  font-size: 60px;
+} */
 h2 {
-  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Input Sans, sans-serif; 
+  font-size: 3.625rem; 
+   line-height: 1.25;
 }
 h3 {
   font-size: 18px;
@@ -8496,16 +8483,12 @@ div.alert-box.success.has-side-button .btn:hover {
   font-size: 24px;
   color: var(--color-legacy-white);
 }
-.blog-article article > h1 {
-  font-weight: 400;
-  font-size: 42px;
-  font-family: var(--font-sans-serif);
-}
+
 .blog-article article > .markdown *:first-child {
   margin-top: 0;
 }
 .blog-article article > .markdown h1,
-.blog-article article > .markdown h2 {
+.blog-article article > .markdown  {
   font-weight: 700;
   margin-top: 30px;
 }
@@ -8514,10 +8497,7 @@ div.alert-box.success.has-side-button .btn:hover {
 .blog-article article > .markdown h6 {
   margin-top: 20px;
 }
-.blog-article article > .markdown h1 {
-  font-size: 23px;
-}
-.blog-article article > .markdown h2 {
+.blog-article article > .markdown {
   font-size: 20px;
 }
 .blog-article article > .markdown h3 {
@@ -9601,12 +9581,10 @@ html.dark {
 .prose pre code {
   font-family: CamingoCode-Regular, monospace;
 }
-.markdown h1 {
-  font-size: 22px;
-}
-.markdown h2 {
-  font-size: 20px;
-}
+
+/* .markdown h2 {
+  font-size: 200px;
+} */
 .markdown h3 {
   font-size: 18px;
 }
@@ -10842,12 +10820,7 @@ section.user-profile figcaption .score i {
   position: relative;
   top: 1px;
 }
-section.user-profile h1 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 20px;
-  font-weight: 700;
-}
+
 section.user-profile h1 span {
   font-weight: 400;
 }

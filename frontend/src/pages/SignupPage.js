@@ -24,7 +24,7 @@ const SignupPage = () => {
 
     try {
       const response = await fetch(
-        "https://study-with-quiz.onrender.com/api/auth/signup",
+        "http://localhost:5000/api/auth/signup",
         {
           // Replace with your backend URL
           method: "POST",
@@ -153,12 +153,12 @@ see password
               <a data-turbolinks="false" href="/">
                 <img
                   className="hidden dark:block w-48 h-full object-contain mx-auto my-0 pb-10"
-                  src="./"
+                  src="/images/login.png"
                 />
                 <img
                   className="block dark:hidden w-48 h-full object-contain mx-auto my-0 pb-10"
-                  src="./"
-                />
+                  src="/images/login.png"
+                /> 
               </a>
               <button
                 className="w-full mx-auto inline-flex justify-center py-2 px-4 border border-gray-300 dark:border-gray-700 rounded-md shadow-sm bg-white dark:bg-gray-800 text-sm font-medium text-gray-500 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-900"

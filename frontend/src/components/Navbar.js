@@ -101,7 +101,7 @@ const Navbar  = () => {
               className="navbar_logo-link w-nav-brand w--current"
               aria-label="home"
               ><img
-                src="/"
+                src="/images/homelogo.png"
                 loading="lazy"
                 alt="Codewars by Andela"
                 className="navbar_logo"
@@ -204,7 +204,7 @@ const Navbar  = () => {
               className="navbar_logo-link w-nav-brand w--current"
               aria-label="home"
               ><img
-                src="/"
+                src="/images/homelogo1.png"
                 loading="lazy"
                 alt="Code by savan"
                 className="navbar_logo"
@@ -215,11 +215,18 @@ const Navbar  = () => {
                   href="/study"
                   className="navbar_link w-nav-link"
                   >Study</a
-                ></div>
+                >
+                <div className="dropdown-content">
+                <a href="/study/c">C</a>
+                <a href="/study/c++">C++</a>
+                <a href="/study/java">Java</a>
+                <a href="/study/python">Python</a>
+                </div>
+                </div>
                 <div><a
                   href="/quiz"
                   className="navbar_link w-nav-link"
-                  >Quiz</a
+                  >Quiz </a
                 >
                 <div className="dropdown-content">
                 <a href="/quiz/c">C</a>

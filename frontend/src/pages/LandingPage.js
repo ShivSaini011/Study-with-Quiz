@@ -21,16 +21,14 @@ const LandingPage = () => {
                       </h1>
                       <div className="spacing-block padding-small-plus"></div>
                       <p className="text-size-large">
-                        Improve your development skills by training with your
-                        peers on code kata that continuously challenge and push
-                        your coding practice.
+                      Elevate your development skills by engaging in challenges with peers on coding exercises that continuously push your programming practice.
                       </p>
                       <div className="spacing-block padding-medium"></div>
                       <div className="header-content">
                         <div className="search-bar">
                           <input
                             type="text"
-                            placeholder="Search our tutorials, e.g. HTML"
+                            placeholder="Search our tutorials, e.g., HTML"
                           />
                           <button className="button is-large w-button">
                             Search
@@ -398,7 +396,7 @@ const LandingPage = () => {
                       <div className="panels_item-content">
                         <div className="icon-tile is-red">
                           <div className="icon-1x1-small-plus-plus w-embed">
-                            {/* <svg
+                             <svg
                             width="30px"
                             height="26px"
                             viewBox="0 0 480 374"
@@ -425,7 +423,7 @@ const LandingPage = () => {
                                 ></path>
                               </g>
                             </g>
-                          </svg> */}
+                          </svg> 
                           </div>
                         </div>
                         <div className="spacing-block padding-small-plus"></div>
@@ -434,18 +432,16 @@ const LandingPage = () => {
                         </h2>
                         <div className="spacing-block padding-small"></div>
                         <p className="text-size-medium-old-old">
-                          Challenge yourself on small coding exercises called
-                          "kata". Each kata is crafted by the community to help
-                          you strengthen different coding techniques. Master
-                          your current language of choice, or quickly pick up
-                          any of the 55+ programming languages supported.
+                        Challenge yourself with small coding exercises called "Quizes" Each quiz is crafted by the BrainBoost
+                         community to help you strengthen various coding questions. Master your current language of 
+                         choice, or quickly pick up any of the 55+ programming languages supported.
                         </p>
                         <div className="spacing-block padding-small-plus"></div>
                         <a
-                          href="https://www.codewars.com/join"
+                          href="/signup"
                           className="button is-small is-tertiary w-button"
                         >
-                          Join the Dojo
+                          Join the BrainBoost
                         </a>
                       </div>
                       <div
@@ -454,14 +450,14 @@ const LandingPage = () => {
                       >
                         <div className="noisy-image-wrapper">
                           <img
-                            src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf0e8_next-challenge-3.png"
+                            src="/images/sec5.png"
                             loading="lazy"
                             sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 85vw, 100vw"
                             srcset="
-                            https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf0e8_next-challenge-3-p-500.png   500w,
-                            https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf0e8_next-challenge-3-p-800.png   800w,
-                            https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf0e8_next-challenge-3-p-1080.png 1080w,
-                            https://cdn.prod.website-files.com/6674f0cdb5b7b401612cf015/6674f0cdb5b7b401612cf0e8_next-challenge-3.png        1126w
+                            /images/sec1.png 500w,
+                            /images/sec2.png 800w,
+                            /images/sec3.png 1080w,
+                            /images/sec4.png 1126w
                           "
                             alt=""
                             className="noisy-image-image"
@@ -497,10 +493,9 @@ const LandingPage = () => {
                         <h2 className="heading-style-h4">Get instant feedback</h2>
                         <div className="spacing-block padding-small"></div>
                         <p className="text-size-medium-old-old">
-                          Solve kata with your coding style right in the browser
-                          and use test cases (TDD) to check it as you progress.
-                          Retrain with new, creative, and optimized approaches.
-                          Find all of the bugs in your programming practice.
+                        Solve coding exercises with your unique style
+                         right in the browser and use test cases (TDD) to check your progress. Retrain with new, creative, and optimized approaches. 
+                        Identify all the bugs in your programming practice.
                         </p>
                       </div>
                       <div
@@ -509,7 +504,7 @@ const LandingPage = () => {
                       >
                         <div className="noisy-image-wrapper is-rounded">
                           <img
-                            src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf0ed_Training_on_Unique_In_Order___Codewars.jpg"
+                            src="6674f0cdb5b7b401612cf0ed_Training_on_Unique_In_Order___Codewars.jpg"
                             loading="lazy"
                             sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 79vw, 108.8671875px"
                             width="655"
@@ -553,10 +548,9 @@ const LandingPage = () => {
                         <h2 className="heading-style-h4">Earn ranks and honor</h2>
                         <div className="spacing-block padding-small"></div>
                         <p className="text-size-medium-old-old">
-                          Kata code challenges are ranked from beginner to
-                          expert level. As you complete higher-ranked kata, you
-                          level up your profile and push your software
-                          development skills to your highest potential.
+                          KCoding challenges are ranked from beginner to expert level.
+                           As you complete higher-ranked challenges, you level up your profile and push
+                            your software development skills to their highest potential.
                         </p>
                       </div>
                       <div className="panels_item-image-wrapper is-bleed-full">
@@ -591,10 +585,9 @@ const LandingPage = () => {
                     <h2>An engaged software development community</h2>
                     <div className="spacing-block padding-small-plus"></div>
                     <p className="text-size-large">
-                      Codewars is a collective effort by its users. They are
-                      creators—authoring kata to teach various techniques,
-                      solving kata with solutions that enlighten others, and
-                      commenting with constructive feedback.
+                    BrainBoost is a collective effort by its users. They are creators—designing coding 
+                    challenges to teach various techniques, solving challenges with solutions that 
+                    enlighten others, and providing constructive feedback through comments.
                     </p>
                   </div>
                 </div>
@@ -602,7 +595,7 @@ const LandingPage = () => {
               <div className="container-large">
                 <div className="padding-section-medium is-padding-bottom-only">
                   <div className="panels_5-column">
-                    <div
+                    {/* <div
                       id="w-node-_6dca05a4-c2a9-f67c-e911-a478ae3bb86c-612cf017"
                       className="panels_item is-3-column background-gradient-red-70"
                     >
@@ -621,7 +614,7 @@ const LandingPage = () => {
                         <div className="spacing-block padding-small"></div>
                         <p>Kata created by our community</p>
                       </div>
-                    </div>
+                    </div> */}
                     <div
                       id="w-node-_6dca05a4-c2a9-f67c-e911-a478ae3bb889-612cf017"
                       className="panels_item is-vertical"
@@ -651,11 +644,10 @@ const LandingPage = () => {
                         </h2>
                         <div className="spacing-block padding-small"></div>
                         <p className="text-size-medium-old-old">
-                          Compare your solution with others after each kata for
-                          greater understanding. Discuss kata, best practices,
-                          and innovative techniques with the community. Have
-                          your mind blown by how different other solutions can
-                          be from your own.
+                          Compare your solution with others after each challenge for greater 
+                          understanding. Discuss coding challenges, best practices, and innovative 
+                          techniques with the community. Be amazed by how different other solutions 
+                          can be from your own.
                         </p>
                       </div>
                       <div className="panels_item-image-wrapper is-bleed-bottom">
@@ -704,12 +696,10 @@ const LandingPage = () => {
                         <h2 className="heading-style-h4">Create your own kata</h2>
                         <div className="spacing-block padding-small"></div>
                         <p className="text-size-medium-old-old">
-                          Author kata that focus on your interests and train
-                          specific skill sets. Challenge the community with your
-                          insight and code understanding. Create everything from
-                          common developer interview questions to challenges
-                          that push the limits of your creativity. Gain honor
-                          within the coding dojo.
+                        Design coding challenges that focus on your interests and train specific skill
+                         sets. Challenge the community with your insights and coding knowledge. Create
+                          everything from common developer interview questions to challenges that push the limits 
+                        of your creativity. Gain honor within the BrainBoost.
                         </p>
                       </div>
                       <div
@@ -734,7 +724,7 @@ const LandingPage = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> 
             </div>
           </section>
           <section className="section_faq">
@@ -742,7 +732,7 @@ const LandingPage = () => {
               <div className="container-small">
                 <div className="padding-section-small is-padding-bottom-only">
                   <div className="text-align-center">
-                    <h2>What can I use Codewars for?</h2>
+                    <h2>What can I use BrainBoost for?</h2>
                     <div className="spacing-block padding-small-plus"></div>
                     <p className="text-size-large">
                       From beginner to expert and beyond...
@@ -780,9 +770,8 @@ const LandingPage = () => {
                         <h3 className="heading-style-h5">Get new perspectives</h3>
                         <div className="spacing-block padding-small"></div>
                         <p className="text-size-medium-old-old">
-                          Solve challenges then view how others solved the same
-                          challenge. Pickup new techniques from some of the most
-                          skilled developers in the world.
+                        Solve challenges, then view how others solved the same problem. Pick
+                        up new techniques from some of the most skilled developers in the world.
                         </p>
                       </div>
                     </div>
@@ -813,9 +802,8 @@ const LandingPage = () => {
                         <h3 className="heading-style-h5">Learn new languages</h3>
                         <div className="spacing-block padding-small"></div>
                         <p className="text-size-medium-old-old">
-                          Solve challenges in a language you are comfortable
-                          with, then do it in a language you want to improve
-                          with. Level up across different languages.
+                        Solve challenges in a language you're comfortable with, then do it in a language you want to 
+                        improve. Level up across different languages.
                         </p>
                       </div>
                     </div>
@@ -852,7 +840,7 @@ const LandingPage = () => {
                         </p>
                       </div>
                     </div>
-                    <div
+                    {/* <div
                       id="w-node-d97491b3-b448-e883-20ec-1472063e9930-612cf017"
                       className="panels_item is-vertical"
                     >
@@ -1005,7 +993,7 @@ const LandingPage = () => {
                           ></div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <div
                       id="w-node-_9f23248e-74b7-e718-6231-15743f7ea4ba-612cf017"
                       className="panels_item is-vertical"
@@ -1376,7 +1364,7 @@ const LandingPage = () => {
                   <div className="panels_item background-gradient-green-20">
                     <div className="panels_item-content">
                       <div className="text-align-center max-width-large align-center">
-                        <h6>codewars IS&nbsp;BUILT ON</h6>
+                        <h6>BrainBoost IS&nbsp;BUILT ON</h6>
                         <div className="spacing-block padding-medium"></div>
                         <img
                           src="./Codewars - Achieve mastery through coding practice and developer mentorship_files/6674f0cdb5b7b401612cf0f1_qualified-full-color-white.svg"
@@ -1387,13 +1375,12 @@ const LandingPage = () => {
                         />
                         <div className="spacing-block padding-medium"></div>
                         <p className="text-size-medium-old-old">
-                          The world's most advanced coding assessment platform
-                          for organizations looking to scale their hiring,
-                          upskilling, and certification programs.
+                        The world's most advanced coding assessment platform for organizations 
+                        looking to scale their hiring, upskilling, and certification programs.
                         </p>
                         <div className="spacing-block padding-medium"></div>
                         <a
-                          href="https://www.qualified.io/?utm_source=codewars&amp;utm_campaign=footerp"
+                          href="/about"
                           target="_blank"
                           className="button is-qualified w-button"
                         >
