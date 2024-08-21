@@ -24,7 +24,7 @@ const SignupPage = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/auth/signup",
+        "https://study-with-quiz.onrender.com/api/auth/signup",
         {
           // Replace with your backend URL
           method: "POST",
@@ -32,7 +32,8 @@ const SignupPage = () => {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({ email, password,Name }),
-        }
+        },
+        // console.log(email, password, Name),
       );
 
       if (response.ok) {
@@ -201,6 +202,8 @@ see password
                     name="user[email]"
                     placeholder="email"
                     type="text"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
                 <div className="relative rounded-none rounded-t-md">
