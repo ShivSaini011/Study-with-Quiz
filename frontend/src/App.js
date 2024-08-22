@@ -8,6 +8,7 @@ import LoginPage from './pages/LoginPage';
 import StudyPage from './pages/StudyPage';
 import Profile from './pages/profile';
 import QuizPage from './pages/QuizPage';
+import CLanguagePage from './pages/study/clanguage';
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -31,6 +32,7 @@ const App = () => {
         <Route path="/signup" element={<SignupPage setIsLoggedIn={setIsLoggedIn} />} />
         <Route path="/login" element={<LoginPage setIsLoggedIn={setIsLoggedIn} />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/study/clanguage" element={<CLanguagePage/>} />
         <Route path="/study/:topic" element={<StudyPage />} />
         <Route path="/quiz/:topic" element={<QuizPage />} />
       </Routes>

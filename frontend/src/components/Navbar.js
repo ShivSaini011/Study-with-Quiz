@@ -217,7 +217,7 @@ const Navbar  = () => {
                   >Study</a
                 >
                 <div className="dropdown-content">
-                <a href="/study/c">C</a>
+                <a href="/study/clanguage">C</a>
                 <a href="/study/c++">C++</a>
                 <a href="/study/java">Java</a>
                 <a href="/study/python">Python</a>

@@ -1,0 +1,51 @@
+
+
+.slider-navbar {
+    width: 300px;
+    background-color: rgba(8, 3, 39, 0.823);
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .navbar-content {
+    padding-top: 80px;
+  }
+  
+  .navbar-item {
+    padding: 15px 20px;
+    cursor: pointer;
+  }
+  
+  .navbar-item:hover {
+    background-color: #555;
+  }
+  
+  .content1 {
+    margin-left: 300px; /* Match slider width */
+    padding: 20px;
+    padding-top: 80px;
+  }
+  
+  .topic-description {
+    display: none;
+    padding: 20px;
+  }
+  
+  .topic-description.active {
+    display: block;
+  }
+  
+  .topic-description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .topic-description p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
